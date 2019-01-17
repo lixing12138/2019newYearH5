@@ -3,10 +3,12 @@
     padding: 0;
     border: 0;
 }
+
 html {
     height: 100%;
     width: 100%;
 }
+
 body {
     height: 100%;
     width: 100%;
@@ -22,13 +24,53 @@ body {
     top: 0;
     left: 0;
 }
-#top{
+
+.container > #stopMusic{
+    position: absolute;
+    top: 1.834%;
+    right:4.034%;
+    width: 13.202vw;
+    height: 13.202vw;
+    z-index: 2;
+    border-radius: 50%;
+    border: 2px solid white;
+    animation:  circle 5s linear infinite;
+    -webkit-animation: circle 5s linear infinite;
+    -moz-animation: circle 5s linear infinite;
+}
+@keyframes circle {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes circle {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@-moz-keyframes circle {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+#top {
     position: absolute;
     top: 0;
     left: -2.0782vw;
     background: url("../images/top.png") no-repeat;
     background-size: 100%;
-    height:12.4694vw ;
+    height: 12.4694vw;
     width: 103.6674vw;
     z-index: 1;
 }
@@ -37,14 +79,11 @@ body {
 *page1
 */
 .page1 {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100vw;
     height: 179.95vw;
 }
 
-#leftLantern {
+.page1 > #leftLantern {
     position: absolute;
     top: 7.0904vw;
     left: 6.8459vw;
@@ -55,19 +94,21 @@ body {
     transform: rotate(5deg);
     -webkit-transform: rotate(5deg);
     transform-origin: 50% 0;
-    -webkit-transform-origin:50% 0 ;
+    -webkit-transform-origin: 50% 0;
     animation: shakeLeftToRight 3s linear forwards infinite alternate;
     -webkit-animation: shakeLeftToRight 3s linear forwards infinite alternate;
 }
+
 @keyframes shakeLeftToRight {
     to {
         transform: rotate(-10deg);
         -webkit-transform: rotate(-10deg);
         transform-origin: 50% 0;
-        -webkit-transform-origin:50% 0 ;
+        -webkit-transform-origin: 50% 0;
     }
 }
-#rightLantern {
+
+.page1 > #rightLantern {
     position: absolute;
     top: 7.0904vw;
     right: 6.8459vw;
@@ -83,58 +124,62 @@ body {
     -webkit-animation: shakeLeftToRight 3s linear forwards infinite alternate;
 }
 
-#rightCloud{
+.page1 > #rightCloud {
     position: absolute;
-    top:26.2907vh;
-    left:80vw;
+    top: 26.2907vh;
+    left: 80vw;
     background: url("../images/cloudRight.png") no-repeat;
     background-size: 100%;
-    width:23.3496vw ;
+    width: 23.3496vw;
     height: 10.5134vw;
-    animation:moveRightToLeft 3s linear forwards infinite alternate;
+    animation: moveRightToLeft 3s linear forwards infinite alternate;
     -webkit-animation: moveRightToLeft 3s linear forwards infinite alternate;
 }
-#leftCloud{
+
+.page1 > #leftCloud {
     position: absolute;
-    top:67.6847vh;
-    left:-0.9779vw;
+    top: 67.6847vh;
+    left: -0.9779vw;
     background: url("../images/cloudLeft.png") no-repeat;
     background-size: 100%;
-    width:37.0414vw ;
+    width: 37.0414vw;
     height: 15.52567vw;
-    animation:moveLeftToRight 3s linear forwards infinite alternate;
+    animation: moveLeftToRight 3s linear forwards infinite alternate;
     -webkit-animation: moveLeftToRight 3s linear forwards infinite alternate;
 }
+
 @keyframes moveLeftToRight {
-    to{
-        left:3vw;
-    }
-}
-@keyframes moveRightToLeft {
-    to{
-        left:85vw;
+    to {
+        left: 3vw;
     }
 }
 
-#building{
+@keyframes moveRightToLeft {
+    to {
+        left: 85vw;
+    }
+}
+
+.page1 > #building {
     background: url("../images/building.png") no-repeat;
     background-size: 100%;
     width: 51.4669vw;
     height: 31.5403vw;
     position: absolute;
-    left:1.4669vw;
-    bottom:3.3967vh;
+    left: 1.4669vw;
+    bottom: 6.11246vw;
     animation: getBigger 3s linear forwards infinite alternate;
     -webkit-animation: getBigger 3s linear forwards infinite alternate;
 }
+
 @keyframes getBigger {
-    to{
+    to {
         transform: scale(1.1);
         -webkit-transform: scale(1.1);
     }
 }
 
-#pig{
+.page1 > #pig {
     background: url("../images/pig.png") no-repeat;
     background-size: 100%;
     width: 30.5623vw;
@@ -145,44 +190,154 @@ body {
     animation: pigRotate 5s linear forwards infinite alternate;
     -webkit-animation: pigRotate 4s linear forwards infinite alternate;
 }
+
 @keyframes pigRotate {
-    to{
+    to {
         transform: rotate(5deg);
         -webkit-transform: rotate(5deg);
     }
 }
 
-#bottomCloud{
-    background: url("../images/bottomCloud.png") no-repeat ;
+.page1 > #bottomCloud {
+    background: url("../images/bottomCloud.png") no-repeat;
     background-size: 100%;
-    width:105.62347vw ;
+    width: 105.62347vw;
     height: 44.132vw;
     position: absolute;
     bottom: -3.3967vh;
-    right:-55vw;
+    right: -55vw;
     z-index: 1;
 }
-
 
 /*
 *page2
 */
-
-.page2{
+.page2 {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 179.95vw;
+    width: 100%;
+    height: 100%;
     z-index: 1;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
-#message{
+
+.page2 > #message {
     background: url("../images/input.png") no-repeat;
     background-size: 100%;
     width: 65.1589vw;
     height: 40.83129vw;
     position: absolute;
-    top:37.43206vh;
+    top: 37.43206vh;
     left: 17.8484vw;
+}
+
+.page2 > #message > span {
+    display: inline-block;
+}
+
+.page2 > #message > #nameImg {
+    background: url("../images/name.png") no-repeat;
+    width: 11.3507vw;
+    height: 5.5012vw;
+    background-size: 100%;
+    position: absolute;
+    top: 4.1271vw;
+    left: 25.3765vw;
+}
+
+.page2 > #message > span > #messageInput {
+    background-color: #f1a97c;
+    border: 0.3vw solid saddlebrown;
+    border-radius: 10px;
+    font-size: 4vw;
+    text-align: center;
+    line-height: 5vw;
+    width: 32vw;
+    height: 5vw;
+    position: absolute;
+    top: 11vw;
+    left: 15vw;
+}
+
+.page2 > #message > #sexImg {
+    background: url("../images/sex.png") no-repeat;
+    width: 11.3507vw;
+    height: 5.5012vw;
+    background-size: 100%;
+    position: absolute;
+    top: 18.1271vw;
+    left: 25.3765vw;
+}
+
+.page2 > #message > #btn {
+    background: url("../images/certain.png") no-repeat;
+    width: 11.3507vw;
+    height: 5.5012vw;
+    background-size: 100%;
+    position: absolute;
+    top: 37vw;
+    left: 21vw;
+}
+
+.fade-out {
+    -webkit-animation: fadeOut 500ms linear forwards;
+    -o-animation: fadeOut 500ms linear forwards;
+    animation: fadeOut 500ms linear forwards;
+}
+.fade-in{
+    -webkit-animation: fadeIn 500ms linear forwards;
+    -o-animation: fadeIn 500ms linear forwards;
+    animation: fadeIn 500ms linear forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        display: none;
+    }
+    2% {
+        opacity: 0.02;
+        display: block;
+    }
+    100% {
+        opacity: 1;
+        display: block;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        display: block;
+    }
+    98% {
+        opacity: 0.02;
+        display: block;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+/*
+*page3
+*/
+.page3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.page3 > #bottle{
+    background: url("../images/bottle.png") no-repeat;
+    background-size: 100%;
+    width:60.6356vw;
+    height:106.3569vw;
+    position: absolute;
+    top: 18.68206vh;
+    left: 19.8044vw;
+
 }
