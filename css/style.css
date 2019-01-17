@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background: url("../images/bk.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#top{
+    position: absolute;
+    top: 0;
+    left: -2.0782vw;
+    background: url("../images/top.png") no-repeat;
+    background-size: 100%;
+    height:12.4694vw ;
+    width: 103.6674vw;
+    z-index: 1;
+}
+
+/*
+*page1
+*/
+.page1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 179.95vw;
+}
+
+#leftLantern {
+    position: absolute;
+    top: 7.0904vw;
+    left: 6.8459vw;
+    background: url("../images/lantern.png") no-repeat;
+    background-size: 100%;
+    height: 37.408vw;
+    width: 17.126vw;
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform-origin: 50% 0;
+    -webkit-transform-origin:50% 0 ;
+    animation: shakeLeftToRight 3s linear forwards infinite alternate;
+    -webkit-animation: shakeLeftToRight 3s linear forwards infinite alternate;
+}
+@keyframes shakeLeftToRight {
+    to {
+        transform: rotate(-10deg);
+        -webkit-transform: rotate(-10deg);
+        transform-origin: 50% 0;
+        -webkit-transform-origin:50% 0 ;
+    }
+}
+#rightLantern {
+    position: absolute;
+    top: 7.0904vw;
+    right: 6.8459vw;
+    background: url("../images/lantern.png") no-repeat;
+    background-size: 100%;
+    height: 37.408vw;
+    width: 17.126vw;
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform-origin: 50% 0;
+    -webkit-transform-origin: 50% 0;
+    animation: shakeLeftToRight 3s linear forwards infinite alternate;
+    -webkit-animation: shakeLeftToRight 3s linear forwards infinite alternate;
+}
+
+#rightCloud{
+    position: absolute;
+    top:26.2907vh;
+    left:80vw;
+    background: url("../images/cloudRight.png") no-repeat;
+    background-size: 100%;
+    width:23.3496vw ;
+    height: 10.5134vw;
+    animation:moveRightToLeft 3s linear forwards infinite alternate;
+    -webkit-animation: moveRightToLeft 3s linear forwards infinite alternate;
+}
+#leftCloud{
+    position: absolute;
+    top:67.6847vh;
+    left:-0.9779vw;
+    background: url("../images/cloudLeft.png") no-repeat;
+    background-size: 100%;
+    width:37.0414vw ;
+    height: 15.52567vw;
+    animation:moveLeftToRight 3s linear forwards infinite alternate;
+    -webkit-animation: moveLeftToRight 3s linear forwards infinite alternate;
+}
+@keyframes moveLeftToRight {
+    to{
+        left:3vw;
+    }
+}
+@keyframes moveRightToLeft {
+    to{
+        left:85vw;
+    }
+}
+
+#building{
+    background: url("../images/building.png") no-repeat;
+    background-size: 100%;
+    width: 51.4669vw;
+    height: 31.5403vw;
+    position: absolute;
+    left:1.4669vw;
+    bottom:3.3967vh;
+    animation: getBigger 3s linear forwards infinite alternate;
+    -webkit-animation: getBigger 3s linear forwards infinite alternate;
+}
+@keyframes getBigger {
+    to{
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+    }
+}
+
+#pig{
+    background: url("../images/pig.png") no-repeat;
+    background-size: 100%;
+    width: 30.5623vw;
+    height: 25.7946vw;
+    position: absolute;
+    right: 7.4572vw;
+    bottom: 12.9755vh;
+    animation: pigRotate 5s linear forwards infinite alternate;
+    -webkit-animation: pigRotate 4s linear forwards infinite alternate;
+}
+@keyframes pigRotate {
+    to{
+        transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+    }
+}
+
+#bottomCloud{
+    background: url("../images/bottomCloud.png") no-repeat ;
+    background-size: 100%;
+    width:105.62347vw ;
+    height: 44.132vw;
+    position: absolute;
+    bottom: -3.3967vh;
+    right:-55vw;
+    z-index: 1;
+}
+
+
+/*
+*page2
+*/
+
+.page2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 179.95vw;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.4);
+}
+#message{
+    background: url("../images/input.png") no-repeat;
+    background-size: 100%;
+    width: 65.1589vw;
+    height: 40.83129vw;
+    position: absolute;
+    top:37.43206vh;
+    left: 17.8484vw;
+}
