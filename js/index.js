@@ -3,31 +3,35 @@ $(
         /*
         * 设备宽度较大时缩小瓶子
         * */
-        let deviceWidth=document.body.clientWidth;
-        if (deviceWidth>760){
-            $(".page3 > #bottle").css({
+        let deviceWidth = document.body.clientWidth;
+        if (deviceWidth > 760) {
+            $(".page3").css({
                 "-webkit-transform": "scale(0.5)",
-            "-moz-transform": "scale(0.5)",
-            "-ms-transform": "scale(0.5)",
-            "-o-transform": "scale(0.5)",
-            "transform": "scale(0.5)"
+                "-moz-transform": "scale(0.5)",
+                "-ms-transform": "scale(0.5)",
+                "-o-transform": "scale(0.5)",
+                "transform": "scale(0.5)"
             });
         }
         //获得名字性别
-        let nickName="";
+        let nickName = "";
         $(".page2 > #message > #btn").click(function () {
-            let name=$(".page2 > #message > span >#messageInput").val();
-            if (!name){
+            let name = $(".page2 > #message > span >#messageInput").val();
+            if (!name) {
                 alert("请输入昵称");
             } else {
-                nickName=name;
+                nickName = name;
                 setTimeout(function () {
                     $(".page2").addClass('fade-out');
                     setTimeout(function () {
                         $(".page2").removeClass('show');
                         $(".page3").removeClass('hidden').addClass('fade-in');
-                    },500);
-                },500);
+                        /*
+                        * 检测手机晃动
+                        * */
+
+                    }, 500);
+                }, 500);
             }
             console.log(nickName);
         })
@@ -47,38 +51,15 @@ $(
                 music.pause();
             }
         });
-        
+
         /*
          * 监控手机晃动
          * */
-        let shakePhone=function () {
-            var SHAKE_THRESHOLD = 3000;
-            var last_update = 0;
-            var x = y = z = last_x = last_y = last_z = 0;
-            function init() {
-                if (window.DeviceMotionEvent) {
-                    window.addEventListener('devicemotion', deviceMotionHandler, false);
-                } else {
-                    alert('not support mobile event');
-                }
-            }
-            function deviceMotionHandler(eventData) {
-                var acceleration = eventData.accelerationIncludingGravity;
-                var curTime = new Date().getTime();
-                if ((curTime - last_update) > 100) {
-                    var diffTime = curTime - last_update;
-                    last_update = curTime;
-                    x = acceleration.x;
-                    y = acceleration.y;
-                    z = acceleration.z;
-                    var speed = Math.abs(x + y + z - last_x - last_y - last_z) / diffTime * 10000;
-                    if (speed > SHAKE_THRESHOLD) {
-                        alert("摇动了");
-                    }
-                    last_x = x;
-                    last_y = y;
-                    last_z = z;
-                }
+        let shakePhone = function () {
+            if (window.DeviceMotionEvent) {
+                window.addEventListener('devicemotion',deviceMotionHandle)
+                let shakeThreshold = 5000, lastUpdateTime = 0,
+                    x = 0, y = 0, last_x = 0, last_y = 0, last_z = 0;
             }
         }
     }
