@@ -52,14 +52,60 @@ $(
             }
         });
 
+
+        /*
+        * 触发晃动事件或者点击开瓶按钮事件
+        * */
+        $(".page3 > #wishButton").click(function () {
+            $(".page3 > #wishButton").css("display","none");
+            $(".page3 ").addClass('shakeBottle');
+            setTimeout(function () {
+                document.getElementById("shakeMusic").pause();
+                document.getElementById("peng").play();
+                setTimeout(function () {
+                    $("#cork").addClass("bomb");
+
+                },900)
+            },500)
+        })
+
         /*
          * 监控手机晃动
          * */
         let shakePhone = function () {
             if (window.DeviceMotionEvent) {
-                window.addEventListener('devicemotion',deviceMotionHandle)
+                window.addEventListener('devicemotion',deviceMotionHandle,false);
                 let shakeThreshold = 5000, lastUpdateTime = 0,
-                    x = 0, y = 0, last_x = 0, last_y = 0, last_z = 0;
+                    x = 0, y = 0,z=0, last_x = 0, last_y = 0, last_z = 0;
+                function deviceMotionHandle(event) {
+                    let acceleration=event.accelerationIncludingGravity;
+                    let currentTime=new Date().getTime();
+                    let isShaking=false;
+                    if ((currentTime-lastUpdateTime)>10){
+                        let intervalTime=currentTime-lastUpdateTime;
+                        lastUpdateTime=currentTime;
+                        x=acceleration.x;
+                        y=acceleration.y;
+                        z=acceleration.z;
+                        let speed=Math.abs(x +y + z - last_x - last_y - last_z) /intervalTime * 10000;
+
+                        if (speed>shakeThreshold&&!isShaking){
+                            isShaking=true;
+                            $("#shakeMusic").play();
+
+                            setTimeout(function () {
+                                window.removeEventListener("devicemotion",deviceMotionHandle,false);
+                                $(".page3 > #wishButton").trigger('click');
+                                isShaking=false;
+                            },1000);
+                        }
+                    }
+                    last_x=x;
+                    last_y=y;
+                    last_z=z;
+                }
+            }else {
+
             }
         }
     }
