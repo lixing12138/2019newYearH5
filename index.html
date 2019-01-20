@@ -25,6 +25,7 @@
 <div class="container">
     <p id="top"></p>
     <img src="./images/stopMusic.png" alt="Stop Music" id="stopMusic">
+    <!--page1 dynamic element-->
     <div class="page1 show">
         <p id="leftLantern"></p>
         <p id="rightLantern"></p>
@@ -34,27 +35,46 @@
         <p id="building"></p>
         <p id="bottomCloud"></p>
     </div>
-    <div class="page2 hidden">
+    <!--input-->
+    <div class="page2 show">
         <div id="message">
             <span id="nameImg"></span>
             <span>
                 <input type="text" id="messageInput" maxlength="7" placeholder="">
             </span>
             <span id="sexImg"></span>
-            <span id="select"></span>
+            <span id="select">
+                <span id="picBoy" class="selectedBoy"></span><span id="titleBoy"></span>
+                <span id="picGirl" class="picGirl"></span><span id="titleGirl"></span>
+            </span>
             <span id="btn"></span>
         </div>
     </div>
-    <div class="page3 show">
+    <!-- bottle-->
+    <div class="page3 hidden">
         <p id="cork"></p>
         <p id="bottle"></p>
-        <p id="star"></p>
+        <p id="star" class="starRotate"></p>
         <p id="wishButton"></p>
     </div>
+    <!--sign-->
+    <div class="page4 hidden">
+        <div class="sign">
+            <p id="tongxue"></p>
+            <p id="name"></p>
+            <p id="nickname"></p>
+            <p id="cartoon"></p>
+            <p id="description"></p>
+            <p id="code"></p>
+            <p id="saoyisao"></p>
+            <p id="changan"></p>
+        </div>
+    </div>
 </div>
-<audio src="./audio/bgm.mp3" preload id="bgm" hidden></audio>
-<audio src="./audio/shake.mp3" hidden id="shakeMusic"></audio>
+<audio src="./audio/bgm.mp3" preload id="bgm" hidden loop></audio>
 <audio src="./audio/peng.mp3" hidden id="peng"></audio>
 <script src="./js/index.js"></script>
+<script src="./js/html2canvas.min.js"></script>
+<script src="./js/canvas2image.js"></script>
 </body>
 </html>

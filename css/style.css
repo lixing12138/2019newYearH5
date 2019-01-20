@@ -34,9 +34,9 @@ body {
     z-index: 2;
     border-radius: 50%;
     border: 2px solid white;
-    animation: circle 5s linear infinite;
-    -webkit-animation: circle 5s linear infinite;
-    -moz-animation: circle 5s linear infinite;
+    animation: circle 6s linear infinite;
+    -webkit-animation: circle 6s linear infinite;
+    -moz-animation: circle 6s linear infinite;
 }
 
 @keyframes circle {
@@ -223,7 +223,6 @@ body {
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.4);
 }
-
 .page2 > #message {
     background: url("../images/input.png") no-repeat;
     background-size: 100%;
@@ -233,11 +232,9 @@ body {
     top: 37.43206vh;
     left: 17.8484vw;
 }
-
 .page2 > #message > span {
     display: inline-block;
 }
-
 .page2 > #message > #nameImg {
     background: url("../images/name.png") no-repeat;
     width: 11.3507vw;
@@ -247,7 +244,6 @@ body {
     top: 4.1271vw;
     left: 25.3765vw;
 }
-
 .page2 > #message > span > #messageInput {
     background-color: #f1a97c;
     border: 0.3vw solid saddlebrown;
@@ -261,7 +257,6 @@ body {
     top: 11vw;
     left: 15vw;
 }
-
 .page2 > #message > #sexImg {
     background: url("../images/sex.png") no-repeat;
     width: 11.3507vw;
@@ -272,14 +267,70 @@ body {
     left: 25.3765vw;
 }
 
+.page2 > #message > #select > .picBoy{
+    background: url("../images/select.png") no-repeat;
+    background-size: 100%;
+    width: 4.7677vw;
+    height: 4.4009vw;
+    position: absolute;
+    top: 27vw;
+    left: 17vw;
+}
+.page2 > #message > #select > #titleBoy{
+    background: url("../images/boy.png") no-repeat;
+    background-size: 100%;
+    width: 4.0342vw;
+    height: 4.4009vw;
+    position: absolute;
+    top: 27vw;
+    left: 25vw;
+
+}
+.page2 > #message > #select > .picGirl{
+    background: url("../images/select.png") no-repeat;
+    background-size: 100%;
+    width: 4.7677vw;
+    height: 4.4009vw;
+    position: absolute;
+    top: 27vw;
+    left: 35vw;
+
+}
+.page2 > #message > #select > #titleGirl{
+    background: url("../images/girl.png") no-repeat;
+    background-size: 100%;
+    width: 4.0342vw;
+    height: 4.4009vw;
+    position: absolute;
+    top: 27vw;
+    left: 43vw;
+}
+.selectedBoy{
+    background: url("../images/selected.png") no-repeat;
+    background-size: 100%;
+    width: 7.8239vw;
+    height: 8.1907vw;
+    position: absolute;
+    top:24vw;
+    left: 16vw;
+}
+.selectedGirl{
+    background: url("../images/selected.png") no-repeat;
+    background-size: 100%;
+    width: 7.8239vw;
+    height: 8.1907vw;
+    position: absolute;
+    top:24vw;
+    left: 34vw;
+}
 .page2 > #message > #btn {
     background: url("../images/certain.png") no-repeat;
-    width: 11.3507vw;
-    height: 5.5012vw;
+    width: 18.3374vw;
+    height: 5.6234vw;
     background-size: 100%;
     position: absolute;
-    top: 37vw;
-    left: 21vw;
+    top: 36.5vw;
+    left: 23vw;
 }
 
 .fade-out {
@@ -357,8 +408,8 @@ body {
 
 @keyframes bomb {
     to {
-        top: -100px;
-        left: -100px;
+        top: -1000px;
+        left: -1000px;
         transform: rotate(360deg);
     }
 }
@@ -438,22 +489,30 @@ body {
 }
 
 /*星星变大效果*/
-.getBigger{
-    -webkit-animation: getBigger 2s;
-    -o-animation: getBigger 2s;
-    animation: getBigger 2s;
+.getBiggerStar{
+    -webkit-animation: getBiggerStar 2s forwards;
+    -o-animation: getBiggerStar 2s forwards;
+    animation: getBiggerStar 2s forwards;
 }
-@keyframes getBigger {
-    to{
-        -webkit-transform: scale(1.5);
-        -moz-transform: scale(1.5);
-        -ms-transform: scale(1.5);
-        -o-transform: scale(1.5);
-        transform: scale(1.5);
+@keyframes getBiggerStar {
 
+    to{
+        -webkit-transform: scale(2) ;
+        -moz-transform: scale(2);
+        -ms-transform: scale(2);
+        -o-transform: scale(2);
+        transform: scale(2);
     }
 }
-
+@-webkit-keyframes getBiggerStar{
+    to{
+        -webkit-transform: scale(2);
+        -moz-transform: scale(2);
+        -ms-transform: scale(2);
+        -o-transform: scale(2);
+        transform: scale(2);
+    }
+}
 .page3 > #bottle {
     background: url("../images/bottle.png") no-repeat;
     background-size: 100%;
@@ -463,18 +522,16 @@ body {
     top: 18.68206vh;
     left: 19.8044vw;
 }
-
 .page3 > #wishButton {
-    /*display: none;*/
+    display: none;
     background: url("../images/open.png") no-repeat;
     background-size: 100%;
-    width: 10vw;
-    height: 10vw;
+    width: 45vw;
+    height: 14vw;
     position: absolute;
-    top: 13vh;
-    left: 45vw;
+    top: 15vh;
+    left: 27vw;
 }
-
 .page3 > #star {
     background: url("../images/star.png") no-repeat;
     background-size: 100%;
@@ -484,10 +541,12 @@ body {
     top: 45vw;
     left: 38.3863vw;
     z-index: 3;
+
+}
+.starRotate{
     -webkit-animation: starRotate 3s linear infinite;
     animation: starRotate 3s linear infinite;
 }
-
 @-webkit-keyframes starRotate {
     from {
         -webkit-transform: rotateY(0deg);
@@ -522,4 +581,94 @@ body {
         transform: rotateY(360deg);
     }
 
+}
+
+/*page4*/
+.page4 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.page4 > .sign{
+    background: url("../images/sign_bk.png") no-repeat;
+    background-size: 100%;
+    width: 85vw;
+    height: 152.9584vw;
+    position: absolute;
+    top: 7vh;
+    left: 8vw;
+}
+.page4 > .sign > #name{
+    font-size: large;
+    position: absolute;
+    top:27vw;
+    left: 10vw;
+}
+.page4 > .sign > #tongxue{
+    background: url("../images/tongxue.png") no-repeat;
+    background-size: 100%;
+    width:15.28117vw;
+    height: 6.2347vw;
+    position: absolute;
+    top:27vw;
+    left: 26vw;
+}
+.page4 > .sign > #nickname{
+     background: url("../images/nickname/jinli.png") no-repeat;
+     background-size: 100%;
+     width:38.0195vw;
+     height: 9.53545vw;
+     position: absolute;
+     top:50vw;
+     left: 24.5721vw;
+ }
+
+.page4 > .sign > #description{
+    background: url("../images/description/jinli.png") no-repeat;
+    background-size: 100%;
+    width:38.8753vw;
+    height: 38.0195vw;
+    position: absolute;
+    bottom: 23vh;
+    left: 41.4425vw;
+}
+.page4 > .sign > #code{
+     background: url("../images/code.png") no-repeat;
+     background-size: 100%;
+     width:24.44987vw;
+     height: 24.44987vw;
+     position: absolute;
+     left: 54.15647vw;
+     bottom:6vh;
+ }
+.page4 > .sign > #changan{
+     background: url("../images/changan.png") no-repeat;
+     background-size: 100%;
+     width:50.1222vw;
+     height: 4.15647vw;
+     position: absolute;
+     bottom:2.30978vh;
+     right: 14.6039vw;
+ }
+.page4 > .sign > #saoyisao{
+    background: url("../images/saoyisao.png") no-repeat;
+    background-size: 100%;
+    width:8.0684vw;
+    height: 22.7383vw;
+    position: absolute;
+    left:42.2982vw;
+    bottom:6.55978vh;
+}
+.page4 > .sign > #cartoon{
+    background: url("../images/boy/jinli.png") no-repeat;
+    background-size: 100%;
+    width:23.2273vw;
+    height: 75.7946vw;
+    position: absolute;
+    bottom:7.40489vh;
+    left: 8.8019vw;
 }
