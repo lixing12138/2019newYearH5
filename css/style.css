@@ -672,3 +672,14 @@ body {
     bottom:7.40489vh;
     left: 4.8337vw;
 }
+
+#result{
+    width: 85vw;
+    height: 84.9864vh;
+    position: absolute;
+    top: 7vh;
+    left: 8vw;
+    display: none;
+    z-index: 1;
+    overflow: hidden;
+}
