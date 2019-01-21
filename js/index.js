@@ -13,24 +13,21 @@ $(
         * 设备宽度较大时缩小瓶子
         * */
         let deviceWidth = document.body.clientWidth;
+        let deviceHeight = document.body.clientHeight;
         if (deviceWidth > 760) {
-            $(".page3").css({
-                "-webkit-transform": "scale(0.7)",
-                "-moz-transform": "scale(0.7)",
-                "-ms-transform": "scale(0.7)",
-                "-o-transform": "scale(0.7)",
-                "transform": "scale(0.7)"
-            });
-            $(".page4").css({
-                "-webkit-transform": "scale(0.6)",
-                "-moz-transform": "scale(0.6)",
-                "-ms-transform": "scale(0.6)",
-                "-o-transform": "scale(0.6)",
-                "transform": "scale(0.6)",
-                "background-color": "unset"
-            });
-            $(".page4 > .sign > #description").css({"bottom": "31vh"})
+            let page3= $(".page3");
+            page3.css({"width":page3.width()*0.8,"height":page3.height()*0.8});
+            let cartoon=$(".page4 > .sign > #cartoon");
+            cartoon.css({"width":cartoon.width()*0.8,"height":cartoon.height()*0.8});
+            let description=$(".page4 > .sign > #description");
+            description.css({"width":description.width()*0.8,"height":description.height()*0.8});
+            let code=$(".page4 > .sign > #code");
+            code.css({"width":code.width()*0.8,"height":code.height()*0.8})
+            let saoyisao=$(".page4 > .sign > #saoyisao");
+            saoyisao.css({"width":saoyisao.width()*0.8,"height":saoyisao.height()*0.8})
+
         }
+
 
         /*
         * 选择性别
@@ -94,9 +91,9 @@ $(
                         $(".page4").removeClass('hidden').addClass('fade-in');
                         let interval = 11 + $(".page4 > .sign > #name").width() * 100 / deviceWidth;
                         $(".page4 > .sign > #tongxue").css("left", interval + "vw");
-                        setTimeout(function () {
-                            saveToPNG(".page4 > .sign");
-                        },500)
+                        // setTimeout(function () {
+                        //     //saveToPNG(".page4 > #sign");
+                        // }, 500)
                     }, 3000)
                 }, 900)
             }, 1000)
@@ -285,40 +282,18 @@ $(
         * 保存为图片
         * */
         function saveToPNG(capture_id) {
-
-            var shareContent = document.getElementById(capture_id);//需要截图的包裹的（原生的）DOM 对象
-            var width = deviceWidth; //获取dom 宽度
-            var height = document.body.clientHeight; //获取dom 高度
-            var canvas = document.createElement("canvas"); //创建一个canvas节点
-            var scale = 2;
-            canvas.width = width * scale; //定义canvas 宽度 * 缩放
-            canvas.height = height * scale; //定义canvas高度 *缩放
-            canvas.getContext("2d").scale(scale, scale); //获取context,设置scale
-            var opts = {
-                scale: scale, // 添加的scale 参数
-                canvas: canvas, //自定义 canvas
-                // logging: true, //日志开关，便于查看html2canvas的内部执行流程
-                width: width, //dom 原始宽度
-                height: height,
-                useCORS: true // 【重要】开启跨域配置
-            };
-            html2canvas(shareContent, opts).then(function (canvas) {
-
+            let canvasWidth=$(capture_id).width;
+            let canvasHeight=$(capture_id).height;
+            html2canvas(document.querySelector(capture_id)).then(canvas => {
                 var context = canvas.getContext('2d');
                 // 【重要】关闭抗锯齿
                 context.mozImageSmoothingEnabled = false;
                 context.webkitImageSmoothingEnabled = false;
                 context.msImageSmoothingEnabled = false;
                 context.imageSmoothingEnabled = false;
-                // 【重要】默认转化的格式为png,也可设置为其他格式
-                var img = Canvas2Image.convertToPNG(canvas, canvas.width, canvas.height);
-                $(".page4 > .sign").empty();
-                $(".page4 > .sign")[0].appendChild(img);
-                $(img).css({
-                    "width": canvas.width / scale + "px",
-                    "height": canvas.height / scale + "px",
-                }).addClass('capture-image');
+                let img = Canvas2Image.convertToPNG(canvas,canvasWidth,canvasHeight);
+                $('.page4 > #sign').empty();
+                $('.page4 > #sign').append(img);
             });
         }
-    }
-)
+})

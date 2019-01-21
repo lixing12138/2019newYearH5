@@ -208,7 +208,7 @@ body {
     position: absolute;
     bottom: -3.3967vh;
     right: -55vw;
-    z-index: 1;
+    z-index: 0;
 }
 
 /*
@@ -595,17 +595,17 @@ body {
 }
 .page4 > .sign{
     background: url("../images/sign_bk.png") no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     width: 85vw;
-    height: 152.9584vw;
+    height: 84.9864vh;
     position: absolute;
     top: 7vh;
     left: 8vw;
 }
 .page4 > .sign > #name{
-    font-size: large;
+    font-size: 4vw;
     position: absolute;
-    top:27vw;
+    top:15.56vh;
     left: 10vw;
 }
 .page4 > .sign > #tongxue{
@@ -614,7 +614,7 @@ body {
     width:15.28117vw;
     height: 6.2347vw;
     position: absolute;
-    top:27vw;
+    top:15.56vh;
     left: 26vw;
 }
 .page4 > .sign > #nickname{
@@ -623,7 +623,7 @@ body {
      width:38.0195vw;
      height: 9.53545vw;
      position: absolute;
-     top:50vw;
+     top:28vh;
      left: 24.5721vw;
  }
 
@@ -664,11 +664,11 @@ body {
     bottom:6.55978vh;
 }
 .page4 > .sign > #cartoon{
-    background: url("../images/boy/jinli.png") no-repeat;
-    background-size: 100%;
-    width:23.2273vw;
-    height: 75.7946vw;
+    background: url("../images/boy/keyan.png") no-repeat;
+    background-size: 100% 100%;
+    width:27.1491vw;
+    height: 75.9608vw;
     position: absolute;
     bottom:7.40489vh;
-    left: 8.8019vw;
+    left: 4.8337vw;
 }

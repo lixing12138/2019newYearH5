@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0579fa0b-26f9-4855-9284-9470d86ed540" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audio/shake.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/boyGirl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/certain.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/certain.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/open.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/open.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/boy/jinli.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/boy/jinli.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/girl/jinli.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/html2canvas.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/html2canvas.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
+            <state relative-caret-position="243">
+              <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -39,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="595" selection-start-line="595" selection-end-line="595" selection-end-column="14" />
+            <state relative-caret-position="363">
+              <caret line="665" column="25" selection-start-line="665" selection-start-column="25" selection-end-line="665" selection-end-column="25" />
               <folding>
                 <element signature="e#943#1069#0" />
                 <element signature="e#4764#4960#0" />
@@ -52,7 +51,6 @@
                 <element signature="e#6016#6197#0" />
                 <element signature="e#6236#6420#0" />
                 <element signature="e#6461#6642#0" />
-                <element signature="e#6655#6839#0" />
                 <element signature="e#6853#7037#0" />
                 <element signature="e#7063#7250#0" />
                 <element signature="e#7262#7414#0" />
@@ -74,7 +72,6 @@
                 <element signature="e#9775#9915#0" />
                 <element signature="e#9916#10135#0" />
                 <element signature="e#10124#10338#0" />
-                <element signature="e#10357#10554#0" />
                 <element signature="e#10577#10773#0" />
                 <element signature="e#10790#10996#0" />
                 <element signature="e#11008#11111#0" />
@@ -92,21 +89,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/images/boy/jinli.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
-              <caret line="290" column="51" selection-start-line="290" selection-start-column="51" selection-end-line="290" selection-end-column="51" />
+            <state relative-caret-position="378">
+              <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
               <folding>
                 <element signature="e#29#65#0" />
                 <element signature="e#249#295#0" />
-                <element signature="e#456#705#0" />
-                <element signature="e#770#1064#0" />
                 <element signature="e#1480#1510#0" />
                 <element signature="e#1599#1868#0" />
                 <element signature="e#1941#2209#0" />
                 <element signature="e#2616#3507#0" />
                 <element signature="e#2410#2457#0" />
                 <element signature="e#2537#2967#0" />
+                <element signature="e#2974#3020#0" />
                 <element signature="e#3392#3464#0" />
                 <element signature="e#3044#3083#0" />
                 <element signature="e#3270#3578#0" />
@@ -124,6 +125,27 @@
                 <element signature="e#9038#9238#0" />
                 <element signature="e#10486#10517#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/html2canvas.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/canvas2image.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4357">
+              <caret line="102" column="40" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -155,8 +177,9 @@
       <find>star</find>
       <find>stop</find>
       <find>open</find>
-      <find>sign</find>
       <find>cork</find>
+      <find>sign</find>
+      <find>name</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,18 +189,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$USER_HOME$/Desktop/newYearH5/json/boy.json" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/canvas2image.js" />
+        <option value="$PROJECT_DIR$/js/html2canvas.min.js" />
         <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="90" />
-    <option name="y" value="10" />
+    <option name="x" value="-82" />
+    <option name="y" value="67" />
     <option name="width" value="1357" />
-    <option name="height" value="788" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -200,11 +225,6 @@
             <path>
               <item name="newYearH5" type="b2602c69:ProjectViewProjectNode" />
               <item name="newYearH5" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newYearH5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newYearH5" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -217,7 +237,7 @@
               <item name="newYearH5" type="b2602c69:ProjectViewProjectNode" />
               <item name="newYearH5" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="nickname" type="462c0819:PsiDirectoryNode" />
+              <item name="girl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newYearH5" type="b2602c69:ProjectViewProjectNode" />
@@ -263,15 +283,15 @@
       <updated>1547706484322</updated>
       <workItem from="1547706486010" duration="28095000" />
       <workItem from="1547787515512" duration="6367000" />
-      <workItem from="1547804246984" duration="25367000" />
+      <workItem from="1547804246984" duration="34611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65831000" />
+    <option name="totallyTimeSpent" value="75075000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="90" y="10" width="1357" height="788" extended-state="0" />
+    <frame x="107" y="43" width="1357" height="739" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20585968" />
@@ -303,7 +323,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/index.js</url>
-          <line>202</line>
+          <line>199</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -337,10 +357,76 @@
     <entry file="file://$PROJECT_DIR$/images/nickname/jinli.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/canvas2image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4357">
+          <caret line="102" column="40" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/html2canvas.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+          <folding>
+            <element signature="e#29#65#0" />
+            <element signature="e#249#295#0" />
+            <element signature="e#1480#1510#0" />
+            <element signature="e#1599#1868#0" />
+            <element signature="e#1941#2209#0" />
+            <element signature="e#2616#3507#0" />
+            <element signature="e#2410#2457#0" />
+            <element signature="e#2537#2967#0" />
+            <element signature="e#2974#3020#0" />
+            <element signature="e#3392#3464#0" />
+            <element signature="e#3044#3083#0" />
+            <element signature="e#3270#3578#0" />
+            <element signature="e#3340#3451#0" />
+            <element signature="e#3590#3624#0" />
+            <element signature="e#3662#5409#0" />
+            <element signature="e#5232#5268#0" />
+            <element signature="e#5304#5808#0" />
+            <element signature="e#5387#5644#0" />
+            <element signature="e#6645#6678#0" />
+            <element signature="e#6700#6724#0" />
+            <element signature="e#7061#7102#0" />
+            <element signature="e#7076#8531#0" />
+            <element signature="e#8562#8606#0" />
+            <element signature="e#9038#9238#0" />
+            <element signature="e#10486#10517#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="595" selection-start-line="595" selection-end-line="595" selection-end-column="14" />
+        <state relative-caret-position="363">
+          <caret line="665" column="25" selection-start-line="665" selection-start-column="25" selection-end-line="665" selection-end-column="25" />
           <folding>
             <element signature="e#943#1069#0" />
             <element signature="e#4764#4960#0" />
@@ -352,7 +438,6 @@
             <element signature="e#6016#6197#0" />
             <element signature="e#6236#6420#0" />
             <element signature="e#6461#6642#0" />
-            <element signature="e#6655#6839#0" />
             <element signature="e#6853#7037#0" />
             <element signature="e#7063#7250#0" />
             <element signature="e#7262#7414#0" />
@@ -374,7 +459,6 @@
             <element signature="e#9775#9915#0" />
             <element signature="e#9916#10135#0" />
             <element signature="e#10124#10338#0" />
-            <element signature="e#10357#10554#0" />
             <element signature="e#10577#10773#0" />
             <element signature="e#10790#10996#0" />
             <element signature="e#11008#11111#0" />
@@ -390,55 +474,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#span#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#span#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="290" column="51" selection-start-line="290" selection-start-column="51" selection-end-line="290" selection-end-column="51" />
-          <folding>
-            <element signature="e#29#65#0" />
-            <element signature="e#249#295#0" />
-            <element signature="e#456#705#0" />
-            <element signature="e#770#1064#0" />
-            <element signature="e#1480#1510#0" />
-            <element signature="e#1599#1868#0" />
-            <element signature="e#1941#2209#0" />
-            <element signature="e#2616#3507#0" />
-            <element signature="e#2410#2457#0" />
-            <element signature="e#2537#2967#0" />
-            <element signature="e#3392#3464#0" />
-            <element signature="e#3044#3083#0" />
-            <element signature="e#3270#3578#0" />
-            <element signature="e#3340#3451#0" />
-            <element signature="e#3590#3624#0" />
-            <element signature="e#3662#5409#0" />
-            <element signature="e#5232#5268#0" />
-            <element signature="e#5304#5808#0" />
-            <element signature="e#5387#5644#0" />
-            <element signature="e#6645#6678#0" />
-            <element signature="e#6700#6724#0" />
-            <element signature="e#7061#7102#0" />
-            <element signature="e#7076#8531#0" />
-            <element signature="e#8562#8606#0" />
-            <element signature="e#9038#9238#0" />
-            <element signature="e#10486#10517#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/images/boy/jinli.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
