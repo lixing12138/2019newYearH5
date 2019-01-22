@@ -79,7 +79,6 @@ $(
                     $("#cork").addClass("bomb");
                     $(".page3 > #bottle").addClass('fade-out');
                     $(".page3 > #star").removeClass('starRotate').addClass('getBiggerStar');
-
                     setTimeout(function () {
                         $(".page3 > #star").css("display", "none");
                         /*
@@ -127,7 +126,6 @@ $(
                 function deviceMotionHandle(event) {
                     let acceleration = event.accelerationIncludingGravity;
                     let currentTime = new Date().getTime();
-                    let isShaking = false;
                     if ((currentTime - lastUpdateTime) > 10) {
                         let intervalTime = currentTime - lastUpdateTime;
                         lastUpdateTime = currentTime;
