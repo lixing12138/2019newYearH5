@@ -15,16 +15,16 @@ $(
         let deviceWidth = document.body.clientWidth;
         let deviceHeight = document.body.clientHeight;
         if (deviceWidth > 760) {
-            let page3= $(".page3");
-            page3.css({"width":page3.width()*0.8,"height":page3.height()*0.8});
-            let cartoon=$(".page4 > .sign > #cartoon");
-            cartoon.css({"width":cartoon.width()*0.8,"height":cartoon.height()*0.8});
-            let description=$(".page4 > .sign > #description");
-            description.css({"width":description.width()*0.8,"height":description.height()*0.8});
-            let code=$(".page4 > .sign > #code");
-            code.css({"width":code.width()*0.8,"height":code.height()*0.8})
-            let saoyisao=$(".page4 > .sign > #saoyisao");
-            saoyisao.css({"width":saoyisao.width()*0.8,"height":saoyisao.height()*0.8})
+            let page3 = $(".page3");
+            page3.css({"width": page3.width() * 0.8, "height": page3.height() * 0.8});
+            let cartoon = $(".page4 > .sign > #cartoon");
+            cartoon.css({"width": cartoon.width() * 0.8, "height": cartoon.height() * 0.8});
+            let description = $(".page4 > .sign > #description");
+            description.css({"width": description.width() * 0.8, "height": description.height() * 0.8});
+            let code = $(".page4 > .sign > #code");
+            code.css({"width": code.width() * 0.8, "height": code.height() * 0.8});
+            let saoyisao = $(".page4 > .sign > #saoyisao");
+            saoyisao.css({"width": saoyisao.width() * 0.8, "height": saoyisao.height() * 0.8})
         }
 
 
@@ -36,13 +36,13 @@ $(
             $(".page2 > #message > #select > #picBoy").removeClass('picBoy').addClass('selectedBoy');
             $(".page2 > #message > #select > #picGirl").removeClass('selectedGirl').addClass('picGirl');
             sex = 1;
-            console.log("nan");
+            //console.log("nan");
         });
         $(".page2 > #message > #select > #picGirl").click(function () {
             $(".page2 > #message > #select > #picGirl").removeClass('picGirl').addClass('selectedGirl');
             $(".page2 > #message > #select > #picBoy").removeClass('selectedBoy').addClass('picBoy');
             sex = 2;
-            console.log("nv");
+            //console.log("nv");
         });
         //获得名字
         let nickName = "";
@@ -83,16 +83,16 @@ $(
                     setTimeout(function () {
                         $(".page3 > #star").css("display", "none");
                         /*
-           * 设置page4中的姓名 title cartoon  description
-           * */
+                        * 设置page4中的姓名 title cartoon  description
+                        * */
                         let num = Math.floor(Math.random() * 10);
                         paintPage(nickName, sex, 0);
                         $(".page4").removeClass('hidden').addClass('fade-in');
                         let interval = 11 + $(".page4 > .sign > #name").width() * 100 / deviceWidth;
                         $(".page4 > .sign > #tongxue").css("left", interval + "vw");
                         setTimeout(function () {
-                                saveToPNG();
-                        }, 500)
+                            saveToPNG();
+                        }, 100)
                     }, 3000)
                 }, 900)
             }, 1000)
@@ -230,7 +230,7 @@ $(
                 }
             ];
             let imagePathBoy = [
-                "./images/boy/jinli.png",
+                "./images/boy/keyan.png",
                 "./images/boy/jinli.png",
                 "./images/boy/jinli.png",
                 "./images/boy/jinli.png",
@@ -312,7 +312,7 @@ $(
                 // 【重要】默认转化的格式为png,也可设置为其他格式
                 var img = Canvas2Image.convertToJPEG(canvas, canvas.width, canvas.height);
                 $('.page4').empty();
-                $('#result').css("display","block").append(img);
+                $('#result').css("display", "block").append(img);
 
                 $(img).css({
                     "width": canvas.width / 2 + "px",
@@ -320,4 +320,4 @@ $(
                 })
             });
         }
-})
+    })

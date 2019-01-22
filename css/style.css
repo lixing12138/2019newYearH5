@@ -523,7 +523,7 @@ body {
     left: 19.8044vw;
 }
 .page3 > #wishButton {
-    display: none;
+    display: block;
     background: url("../images/open.png") no-repeat;
     background-size: 100%;
     width: 45vw;
