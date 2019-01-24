@@ -36,7 +36,6 @@ body {
     border: 2px solid white;
     animation: circle 6s linear infinite;
     -webkit-animation: circle 6s linear infinite;
-    -moz-animation: circle 6s linear infinite;
 }
 
 @keyframes circle {
@@ -49,15 +48,6 @@ body {
 }
 
 @-webkit-keyframes circle {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@-moz-keyframes circle {
     0% {
         transform: rotate(0deg);
     }
@@ -607,6 +597,7 @@ body {
     position: absolute;
     top:15.56vh;
     left: 10vw;
+    color: white;
 }
 .page4 > .sign > #tongxue{
     background: url("../images/tongxue.png") no-repeat;

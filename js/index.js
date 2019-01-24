@@ -9,6 +9,10 @@ $(
             if (ua.match(/MicroMessenger/i) == "micromessenger") {
                 isWeiXin = true;
             }
+
+        if (isWeiXin){
+            doShare();
+        }
         /*
         * 设备宽度较大时缩小瓶子
         * */
@@ -317,5 +321,67 @@ $(
                     "height": canvas.height / 2 + "px",
                 })
             });
+        }
+
+
+        /*
+        * 微信分享
+        * */
+
+        function doShare() {
+            $.ajax({
+                url: "./php/getMessage.php",
+                type: "GET",
+                dataType: "jsonp",
+                success: function (data) {
+                    console.log(data);
+                    wx.config({
+                        beta:true,
+                        debug:true,
+                        appId:data.appId,
+                        timestamp: data.timestamp,
+                        nonceStr: data.nonceStr,
+                        signature: data.signature,
+                        jsApiList: [
+                            'onMenuShareTimeline',
+                            'onMenuShareAppMessage'
+                        ]
+                    });
+                    wx.ready(function () {
+                        wx.onMenuShareTimeline({
+                            title: 'newYearH5', // 分享标题
+                            link: 'https://xcx.fudan.edu.cn/newyear', // 分享链接，该链接域名必须与当前企业的可信域名一致
+                            imgUrl: 'https://xcx.fudan.edu.cn/newyear/sharePic.png', // 分享图标
+                            success: function () {
+                                // 用户确认分享后执行的回调函数
+                                alert("分享成功");
+                            },
+                            cancel: function () {
+                                // 用户取消分享后执行的回调函数
+                                alert("取消分享");
+                            }
+                        });
+
+                        wx.onMenuShareAppMessage({
+                            title: 'newYearH5', // 分享标题
+                            desc: 'h5描述', // 分享描述
+                            link: 'https://xcx.fudan.edu.cn/newyear', // 分享链接，该链接域名必须与当前企业的可信域名一致
+                            imgUrl: 'https://xcx.fudan.edu.cn/newyear/sharePic.png', // 分享图标
+                            type: 'link', // 分享类型,music、video或link，不填默认为link
+                            success: function () {
+                                // 用户确认分享后执行的回调函数
+                                alert("分享成功");
+                            },
+                            cancel: function () {
+                                // 用户取消分享后执行的回调函数
+                                alert("取消分享");
+                            }
+                        });
+                    });
+                    wx.error(function (res) {
+
+                    })
+                }
+            })
         }
     })
