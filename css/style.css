@@ -403,6 +403,13 @@ body {
         transform: rotate(360deg);
     }
 }
+@-webkit-keyframes bomb {
+    to {
+        top: -1000px;
+        left: -1000px;
+        transform: rotate(360deg);
+    }
+}
 
 /**
 *瓶子左右晃动效果
@@ -657,11 +664,11 @@ body {
 .page4 > .sign > #cartoon{
     background: url("../images/boy/keyan.png") no-repeat;
     background-size: 100% 100%;
-    width:27.1491vw;
-    height: 75.9608vw;
+    width:36.2652vw;
+    height: 81.5709vw;
     position: absolute;
     bottom:7.40489vh;
-    left: 4.8337vw;
+    left: 2vw;
 }
 
 #result{

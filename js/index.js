@@ -5,12 +5,11 @@ $(
         * */
         let isWeiXin = false;
         let ua = navigator.userAgent.toLowerCase();
-        if (ua.match(/MicroMessenger/i))
-            if (ua.match(/MicroMessenger/i) == "micromessenger") {
-                isWeiXin = true;
-            }
+        if (ua.match(/MicroMessenger/i) == "micromessenger") {
+            isWeiXin = true;
+        }
 
-        if (isWeiXin){
+        if (isWeiXin) {
             doShare();
         }
         /*
@@ -78,7 +77,11 @@ $(
             $(".page3 > #wishButton").css("display", "none");
             $(".page3 ").addClass('shakeBottle');
             setTimeout(function () {
-                document.getElementById("peng").play();
+                let peng=document.getElementById("peng";
+                let play = function () {
+                    peng.play();
+                };
+                document.addEventListener("WeixinJSBridgeReady", play, false);
                 setTimeout(function () {
                     $("#cork").addClass("bomb");
                     $(".page3 > #bottle").addClass('fade-out');
@@ -89,7 +92,7 @@ $(
                         * 设置page4中的姓名 title cartoon  description
                         * */
                         let num = Math.floor(Math.random() * 10);
-                        paintPage(nickName, sex, 0);
+                        paintPage(nickName, sex, num);
                         $(".page4").removeClass('hidden').addClass('fade-in');
                         let interval = 11 + $(".page4 > .sign > #name").width() * 100 / deviceWidth;
                         $(".page4 > .sign > #tongxue").css("left", interval + "vw");
@@ -191,90 +194,91 @@ $(
             * */
             let message = [
                 {
-                    "title": "科研青年",
+                    "title": "./images/nickname/cengke.png",
+                    "description": "./images/description/cengke.png",
+                },
+                {
+                    "title": "./images/nickname/guojiang.png",
+                    "description": "./images/description/guojiang.png",
+                },
+                {
+                    "title": "./images/nickname/jianshen.png",
+                    "description": "./images/description/jianshen.png",
+                },
+                {
+                    "title": "./images/nickname/jinli.png",
                     "description": "./images/description/jinli.png",
                 },
                 {
-                    "title": "文学青年",
-                    "description": "./images/description/jinli.png",
+                    "title": "./images/nickname/keyan.png",
+                    "description": "./images/description/keyan.png",
                 },
                 {
-                    "title": "锦鲤青年",
-                    "description": "./images/description/jinli.png",
+                    "title": "./images/nickname/lianai.png",
+                    "description": "./images/description/lianai.png",
                 },
                 {
-                    "title": "恋爱青年",
-                    "description": "./images/description/jinli.png",
+                    "title": "./images/nickname/sanjiao.png",
+                    "description": "./images/description/sanjiao.png",
                 },
                 {
-                    "title": "三教青年",
-                    "description": "./images/description/jinli.png",
+                    "title": "./images/nickname/wenxue.png",
+                    "description": "./images/description/wenxue.png",
                 },
                 {
-                    "title": "红色青年",
-                    "description": "./images/description/jinli.png",
+                    "title": "./images/nickname/yangguang.png",
+                    "description": "./images/description/yangguang.png",
                 },
                 {
-                    "title": "中二青年",
-                    "description": "./images/description/jinli.png",
-                },
-                {
-                    "title": "二次元青年",
-                    "description": "./images/description/jinli.png",
-                },
-                {
-                    "title": "硬核青年",
-                    "description": "./images/description/jinli.png",
-                },
-                {
-                    "title": "背锅青年",
-                    "description": "./images/description/jinli.png",
+                    "title": "./images/nickname/yuedu.png",
+                    "description": "./images/description/yuedu.png",
                 }
             ];
             let imagePathBoy = [
+                "./images/boy/cengke.png",
+                "./images/boy/guojiang.png",
+                "./images/boy/jianshen.png",
+                "./images/boy/jinli.png",
                 "./images/boy/keyan.png",
-                "./images/boy/jinli.png",
-                "./images/boy/jinli.png",
-                "./images/boy/jinli.png",
-                "./images/boy/jinli.png",
-                "./images/boy/jinli.png",
-                "./images/boy/jinli.png",
-                "./images/boy/jinli.png",
-                "./images/boy/jinli.png",
-                "./images/boy/jinli.png"
+                "./images/boy/lianai.png",
+                "./images/boy/sanjiao.png",
+                "./images/boy/wenxue.png",
+                "./images/boy/yangguang.png",
+                "./images/boy/yuedu.png"
             ];
-            let imagePathGirl = ["./images/girl/jinli.png",
+            let imagePathGirl = [
+                "./images/girl/cengke.png",
+                "./images/girl/guojiang.png",
+                "./images/girl/jianshen.png",
                 "./images/girl/jinli.png",
-                "./images/girl/jinli.png",
-                "./images/girl/jinli.png",
-                "./images/girl/jinli.png",
-                "./images/girl/jinli.png",
-                "./images/girl/jinli.png",
-                "./images/girl/jinli.png",
-                "./images/girl/jinli.png",
-                "./images/girl/jinli.png"];
+                "./images/girl/keyan.png",
+                "./images/girl/lianai.png",
+                "./images/girl/sanjiao.png",
+                "./images/girl/wenxue.png",
+                "./images/girl/yangguang.png",
+                "./images/girl/yuedu.png"];
             //设置cartoon
             if (sex === 1) {
                 let path = imagePathBoy[num];
                 $(".page4 > .sign > #cartoon").css({
-                    "background": "url(" + path + ") center no-repeat",
-                    "background-size": "100%"
+                    "background": "url(" + path + ")  no-repeat",
+                    "background-size": "100% 100%"
                 });
             } else {
                 let path = imagePathGirl[num];
                 $(".page4 > .sign > #cartoon").css({
-                    "background": "url(" + path + ") center no-repeat",
-                    "background-size": "100%"
+                    "background": "url(" + path + ") no-repeat",
+                    "background-size": "100% 100%"
                 });
             }
             //设置description
             $(".page4 > .sign > #description").css({
                 "background": " url(" + message[num]["description"] + ") no-repeat",
-                "background-size": "100%"
+                "background-size": "100% 100%"
             });
             //设置nickname
             $(".page4 > .sign > #nickname").css({
-                "background": "url('./images/nickname/jinli.png')",
+                "background": " url(" + message[num]["title"] + ") no-repeat",
                 "background-size": "100%"
             });
         }
@@ -328,17 +332,20 @@ $(
         * 微信分享
         * */
 
+        var shareTitle = '2019newYearH5',//分享标题
+            shareLink= 'https://xcx.fudan.edu.cn/newyear',//分享链接
+            shareDescription = 'h5描述',//分享描述
+            shareIcon = 'https://xcx.fudan.edu.cn/newyear/sharePic.png';//分享ICON;
         function doShare() {
             $.ajax({
                 url: "./php/getMessage.php",
                 type: "GET",
-                dataType: "jsonp",
+                dataType: "json",
                 success: function (data) {
-                    console.log(data);
-                    wx.config({
-                        beta:true,
-                        debug:true,
-                        appId:data.appId,
+                    window.wx.config({
+                        beta: true,
+                        debug: true,
+                        appId: data.appId,
                         timestamp: data.timestamp,
                         nonceStr: data.nonceStr,
                         signature: data.signature,
@@ -347,11 +354,11 @@ $(
                             'onMenuShareAppMessage'
                         ]
                     });
-                    wx.ready(function () {
+                    window.wx.ready(function () {
                         wx.onMenuShareTimeline({
-                            title: 'newYearH5', // 分享标题
-                            link: 'https://xcx.fudan.edu.cn/newyear', // 分享链接，该链接域名必须与当前企业的可信域名一致
-                            imgUrl: 'https://xcx.fudan.edu.cn/newyear/sharePic.png', // 分享图标
+                            title:shareTitle, // 分享标题
+                            link: shareLink, // 分享链接，该链接域名必须与当前企业的可信域名一致
+                            imgUrl: shareIcon, // 分享图标
                             success: function () {
                                 // 用户确认分享后执行的回调函数
                                 alert("分享成功");
@@ -363,11 +370,10 @@ $(
                         });
 
                         wx.onMenuShareAppMessage({
-                            title: 'newYearH5', // 分享标题
-                            desc: 'h5描述', // 分享描述
-                            link: 'https://xcx.fudan.edu.cn/newyear', // 分享链接，该链接域名必须与当前企业的可信域名一致
-                            imgUrl: 'https://xcx.fudan.edu.cn/newyear/sharePic.png', // 分享图标
-                            type: 'link', // 分享类型,music、video或link，不填默认为link
+                            title: shareTitle, // 分享标题
+                            desc: shareDescription, // 分享描述
+                            link: shareLink, // 分享链接，该链接域名必须与当前企业的可信域名一致
+                            imgUrl: shareIcon, // 分享图标
                             success: function () {
                                 // 用户确认分享后执行的回调函数
                                 alert("分享成功");
