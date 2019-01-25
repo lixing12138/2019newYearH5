@@ -519,15 +519,27 @@ body {
     top: 18.68206vh;
     left: 19.8044vw;
 }
-.page3 > #wishButton {
-    display: block;
-    background: url("../images/open.png") no-repeat;
+.page3 > #shakeTip {
+    display: none;
+    background: url("../images/shake.png") no-repeat;
     background-size: 100%;
-    width: 45vw;
-    height: 14vw;
-    position: absolute;
-    top: 15vh;
-    left: 27vw;
+    width: 100vw;
+    height: 35.2078vw;
+    position: fixed;
+    top: 40%;
+    left: 0;
+    z-index: 1;
+}
+.page3 > #clickTip {
+    display: block;
+    background: url("../images/tip.png") no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 35.2078vw;
+    position: fixed;
+    top: 40%;
+    left: 0;
+    z-index: 1;
 }
 .page3 > #star {
     background: url("../images/star.png") no-repeat;

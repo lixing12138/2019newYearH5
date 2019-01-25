@@ -11,6 +11,8 @@ $(
 
         if (isWeiXin) {
             doShare();
+            $("#clickTip").css("display","none");
+            $("#shakeTip").css("display","block");
         }
         /*
         * 设备宽度较大时缩小瓶子
@@ -73,15 +75,11 @@ $(
         /*
         * * 触发晃动事件或者点击开瓶按钮事件
         * * */
-        $(".page3 > #wishButton").click(function () {
-            $(".page3 > #wishButton").css("display", "none");
+        $(".page3 > #clickTip").click(function () {
+            $(".page3 > #clickTip").css("display", "none");
             $(".page3 ").addClass('shakeBottle');
             setTimeout(function () {
-                let peng=document.getElementById("peng";
-                let play = function () {
-                    peng.play();
-                };
-                document.addEventListener("WeixinJSBridgeReady", play, false);
+                document.getElementById("peng").play();
                 setTimeout(function () {
                     $("#cork").addClass("bomb");
                     $(".page3 > #bottle").addClass('fade-out');
@@ -146,8 +144,10 @@ $(
                                 navigator.vibrate([400, 200, 400, 200, 400, 200]);
                             }
                             setTimeout(function () {
+                                isWeiXin=false;
+                                $(".page3 > #shakeTip").css("display","none");
+                                $(".page3 > #clickTip").trigger('click');
                                 window.removeEventListener("devicemotion", deviceMotionHandle, false);
-                                $(".page3 > #wishButton").trigger('click');
                             }, 500);
                         }
                     }
@@ -157,7 +157,7 @@ $(
                 }
             } else {
                 console.log("no support");
-                $(".page3 > #wishButton").fadeIn();
+                $(".page3 > #clickTip").fadeIn();
             }
         }
 
@@ -332,62 +332,57 @@ $(
         * 微信分享
         * */
 
-        var shareTitle = '2019newYearH5',//分享标题
+        let shareTitle = '2019newYearH5',//分享标题
             shareLink= 'https://xcx.fudan.edu.cn/newyear',//分享链接
             shareDescription = 'h5描述',//分享描述
             shareIcon = 'https://xcx.fudan.edu.cn/newyear/sharePic.png';//分享ICON;
         function doShare() {
-            $.ajax({
-                url: "./php/getMessage.php",
-                type: "GET",
-                dataType: "json",
-                success: function (data) {
-                    window.wx.config({
-                        beta: true,
-                        debug: true,
-                        appId: data.appId,
-                        timestamp: data.timestamp,
-                        nonceStr: data.nonceStr,
-                        signature: data.signature,
-                        jsApiList: [
-                            'onMenuShareTimeline',
-                            'onMenuShareAppMessage'
-                        ]
+            $.ajax('./php/getMessage.php',function (data) {
+                window.wx.config({
+                    beta: true,
+                    debug: false,
+                    appId: data['appid'],
+                    timestamp: data['timestamp'],
+                    nonceStr: data['nonceStr'],
+                    signature: data['signature'],
+                    jsApiList: [
+                        'onMenuShareTimeline',
+                        'onMenuShareAppMessage'
+                    ]
+                });
+                window.wx.ready(function () {
+                    wx.onMenuShareTimeline({
+                        title:shareTitle, // 分享标题
+                        link: shareLink, // 分享链接，该链接域名必须与当前企业的可信域名一致
+                        imgUrl: shareIcon, // 分享图标
+                        success: function () {
+                            // 用户确认分享后执行的回调函数
+                            alert("分享成功");
+                        },
+                        cancel: function () {
+                            // 用户取消分享后执行的回调函数
+                            alert("取消分享");
+                        }
                     });
-                    window.wx.ready(function () {
-                        wx.onMenuShareTimeline({
-                            title:shareTitle, // 分享标题
-                            link: shareLink, // 分享链接，该链接域名必须与当前企业的可信域名一致
-                            imgUrl: shareIcon, // 分享图标
-                            success: function () {
-                                // 用户确认分享后执行的回调函数
-                                alert("分享成功");
-                            },
-                            cancel: function () {
-                                // 用户取消分享后执行的回调函数
-                                alert("取消分享");
-                            }
-                        });
 
-                        wx.onMenuShareAppMessage({
-                            title: shareTitle, // 分享标题
-                            desc: shareDescription, // 分享描述
-                            link: shareLink, // 分享链接，该链接域名必须与当前企业的可信域名一致
-                            imgUrl: shareIcon, // 分享图标
-                            success: function () {
-                                // 用户确认分享后执行的回调函数
-                                alert("分享成功");
-                            },
-                            cancel: function () {
-                                // 用户取消分享后执行的回调函数
-                                alert("取消分享");
-                            }
-                        });
+                    wx.onMenuShareAppMessage({
+                        title: shareTitle, // 分享标题
+                        desc: shareDescription, // 分享描述
+                        link: shareLink, // 分享链接，该链接域名必须与当前企业的可信域名一致
+                        imgUrl: shareIcon, // 分享图标
+                        success: function () {
+                            // 用户确认分享后执行的回调函数
+                            alert("分享成功");
+                        },
+                        cancel: function () {
+                            // 用户取消分享后执行的回调函数
+                            alert("取消分享");
+                        }
                     });
-                    wx.error(function (res) {
+                });
+                wx.error(function (res) {
 
-                    })
-                }
+                })
             })
         }
     })
