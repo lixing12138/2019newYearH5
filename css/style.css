@@ -602,14 +602,22 @@ body {
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.4);
 }
-.page4 > .sign{
-    background: url("../images/sign_bk.png") no-repeat;
-    background-size: 100% 100%;
+.page4 >.sign{
     width: 85vw;
     height: 84.9864vh;
     position: absolute;
     top: 7vh;
     left: 8vw;
+    z-index: -1;
+}
+.resultImage{
+    vertical-align:bottom;
+    display:block
+}
+.page4 >.sign >  #bk{
+    width: 85vw;
+    height: 84.9864vh;
+    z-index: -1;
 }
 .page4 > .sign > #name{
     font-size: 4vw;
@@ -619,8 +627,6 @@ body {
     color: white;
 }
 .page4 > .sign > #tongxue{
-    background: url("../images/tongxue.png") no-repeat;
-    background-size: 100%;
     width:15.28117vw;
     height: 6.2347vw;
     position: absolute;
@@ -628,8 +634,6 @@ body {
     left: 26vw;
 }
 .page4 > .sign > #nickname{
-     background: url("../images/nickname/jinli.png") no-repeat;
-     background-size: 100%;
      width:38.0195vw;
      height: 9.53545vw;
      position: absolute;
@@ -638,49 +642,40 @@ body {
  }
 
 .page4 > .sign > #description{
-    background: url("../images/description/jinli.png") no-repeat;
-    background-size: 100%;
     width:38.8753vw;
     height: 38.0195vw;
     position: absolute;
-    bottom: 23vh;
+    top: 40vh;
     left: 41.4425vw;
 }
 .page4 > .sign > #code{
-     background: url("../images/code.png") no-repeat;
-     background-size: 100%;
      width:24.44987vw;
      height: 24.44987vw;
      position: absolute;
      left: 54.15647vw;
-     bottom:6vh;
+     top:65vh;
  }
 .page4 > .sign > #changan{
-     background: url("../images/changan.png") no-repeat;
-     background-size: 100%;
      width:50.1222vw;
      height: 4.15647vw;
      position: absolute;
-     bottom:2.30978vh;
-     right: 14.6039vw;
+     top:81.30978vh;
+     left: 16.6039vw;
  }
 .page4 > .sign > #saoyisao{
-    background: url("../images/saoyisao.png") no-repeat;
-    background-size: 100%;
     width:8.0684vw;
     height: 22.7383vw;
     position: absolute;
     left:42.2982vw;
-    bottom:6.55978vh;
+    top:65.55978vh;
 }
 .page4 > .sign > #cartoon{
-    background: url("../images/boy/keyan.png") no-repeat;
-    background-size: 100% 100%;
     width:36.2652vw;
     height: 81.5709vw;
     position: absolute;
-    bottom:7.40489vh;
+    top:33.40489vh;
     left: 2vw;
+    z-index: 3;
 }
 
 #result{
@@ -689,7 +684,8 @@ body {
     position: absolute;
     top: 7vh;
     left: 8vw;
-    display: none;
+    display:none;
     z-index: 1;
     overflow: hidden;
+    background-color: transparent;
 }

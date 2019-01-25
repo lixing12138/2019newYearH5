@@ -96,7 +96,7 @@ $(
                         $(".page4 > .sign > #tongxue").css("left", interval + "vw");
                         setTimeout(function () {
                             saveToPNG();
-                        }, 100)
+                        }, 1000)
                     }, 3000)
                 }, 900)
             }, 1000)
@@ -123,6 +123,7 @@ $(
          * 监控手机晃动
          * */
         let shakePhone = function () {
+            let count=0;
             if (window.DeviceMotionEvent && isWeiXin) {
                 window.addEventListener('devicemotion', deviceMotionHandle, false);
                 let shakeThreshold = 5000, lastUpdateTime = 0,
@@ -143,10 +144,14 @@ $(
                             if ("vibrate" in navigator) {
                                 navigator.vibrate([400, 200, 400, 200, 400, 200]);
                             }
+
                             setTimeout(function () {
                                 isWeiXin=false;
                                 $(".page3 > #shakeTip").css("display","none");
-                                $(".page3 > #clickTip").trigger('click');
+                                if (count===0){
+                                    $(".page3 > #clickTip").trigger('click');
+                                    count++;
+                                }
                                 window.removeEventListener("devicemotion", deviceMotionHandle, false);
                             }, 500);
                         }
@@ -260,27 +265,16 @@ $(
             //设置cartoon
             if (sex === 1) {
                 let path = imagePathBoy[num];
-                $(".page4 > .sign > #cartoon").css({
-                    "background": "url(" + path + ")  no-repeat",
-                    "background-size": "100% 100%"
-                });
+                console.log(path);
+                $(".page4 > .sign > #cartoon").attr("src",path);
             } else {
                 let path = imagePathGirl[num];
-                $(".page4 > .sign > #cartoon").css({
-                    "background": "url(" + path + ") no-repeat",
-                    "background-size": "100% 100%"
-                });
+                $(".page4 > .sign > #cartoon").attr("src",path);
             }
             //设置description
-            $(".page4 > .sign > #description").css({
-                "background": " url(" + message[num]["description"] + ") no-repeat",
-                "background-size": "100% 100%"
-            });
+            $(".page4 > .sign > #description").attr("src",message[num]["description"]);
             //设置nickname
-            $(".page4 > .sign > #nickname").css({
-                "background": " url(" + message[num]["title"] + ") no-repeat",
-                "background-size": "100%"
-            });
+            $(".page4 > .sign > #nickname").attr("src",message[num]["title"]);
         }
 
         /*
@@ -288,7 +282,6 @@ $(
       * */
         function saveToPNG() {
             var cntElem = $('#sign')[0];
-
             var shareContent = cntElem;//需要截图的包裹的（原生的）DOM 对象
             var width = shareContent.offsetWidth; //获取dom 宽度
             var height = shareContent.offsetHeight; //获取dom 高度
@@ -303,7 +296,8 @@ $(
                 // logging: true, //日志开关，便于查看html2canvas的内部执行流程
                 width: width, //dom 原始宽度
                 height: height,
-                useCORS: true // 【重要】开启跨域配置
+                useCORS: true, // 【重要】开启跨域配置
+                dpi: window.devicePixelRatio,
             };
 
             html2canvas(shareContent, opts).then(function (canvas) {
@@ -323,10 +317,10 @@ $(
                 $(img).css({
                     "width": canvas.width / 2 + "px",
                     "height": canvas.height / 2 + "px",
-                })
+                }).addClass("resultImage");
             });
-        }
 
+        }
 
         /*
         * 微信分享
