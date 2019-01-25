@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0579fa0b-26f9-4855-9284-9470d86ed540" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/boy/keyan.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/boy/keyan.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/code.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/code.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/description/jinli.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/description/jinli.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/girl/jinli.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/girl/jinli.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/girl/keyan.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/girl/keyan.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="0579fa0b-26f9-4855-9284-9470d86ed540" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -101,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/getMessage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+            <state relative-caret-position="407">
+              <caret line="78" column="2" lean-forward="true" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
               <folding>
                 <element signature="n#curl_get#0;n#!!top" />
                 <element signature="n#getJsApiTicket#0;n#!!top" />
@@ -191,26 +182,7 @@
             <path>
               <item name="newYearH5" type="b2602c69:ProjectViewProjectNode" />
               <item name="newYearH5" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="boy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newYearH5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newYearH5" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="description" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newYearH5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newYearH5" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="girl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newYearH5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newYearH5" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="nickname" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,23 +235,24 @@
       <workItem from="1547787515512" duration="6367000" />
       <workItem from="1547804246984" duration="39088000" />
       <workItem from="1548143650133" duration="12579000" />
-      <workItem from="1548300683318" duration="19685000" />
+      <workItem from="1548300683318" duration="20087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111816000" />
+    <option name="totallyTimeSpent" value="112218000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="124" y="6" width="1234" height="729" extended-state="1" />
+    <frame x="99" y="31" width="1234" height="729" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21039182" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21039182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="PHP-CGI Server" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20336135" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20336135" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,18 +334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/getMessage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="n#curl_get#0;n#!!top" />
-            <element signature="n#getJsApiTicket#0;n#!!top" />
-            <element signature="n#getRandomCode#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -445,6 +406,18 @@
             <element signature="e#14235#14316#0" />
             <element signature="e#14366#14447#0" />
             <element signature="e#13375#13423#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/getMessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="78" column="2" lean-forward="true" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
+          <folding>
+            <element signature="n#curl_get#0;n#!!top" />
+            <element signature="n#getJsApiTicket#0;n#!!top" />
+            <element signature="n#getRandomCode#0;n#!!top" />
           </folding>
         </state>
       </provider>
