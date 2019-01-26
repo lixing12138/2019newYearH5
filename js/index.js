@@ -333,20 +333,20 @@ $(
         function doShare() {
             $.get('https://xcx.fudan.edu.cn/newyear/php/getMessage.php',function (da) {
                 let data=JSON.parse(da);
+                console.log(data);
                 wx.config({
-                    beta: true,
-                    debug: false,
+                    debug: true,
                     appId: data['appid'],
                     timestamp: data['timestamp'],
                     nonceStr: data['nonceStr'],
                     signature: data['signature'],
                     jsApiList: [
-                        'onMenuShareTimeline',
-                        'onMenuShareAppMessage'
+                        'updateTimelineShareData',
+                        'updateAppMessageShareData'
                     ]
                 });
                 wx.ready(function () {
-                    wx.onMenuShareTimeline({
+                    wx.updateTimelineShareData({
                         title:shareTitle, // 分享标题
                         link: shareLink, // 分享链接，该链接域名必须与当前企业的可信域名一致
                         imgUrl: shareIcon, // 分享图标
@@ -360,7 +360,7 @@ $(
                         }
                     });
 
-                    wx.onMenuShareAppMessage({
+                    wx.updateAppMessageShareData({
                         title: shareTitle, // 分享标题
                         desc: shareDescription, // 分享描述
                         link: shareLink, // 分享链接，该链接域名必须与当前企业的可信域名一致
