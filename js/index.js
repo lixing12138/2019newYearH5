@@ -22,14 +22,10 @@ $(
         if (deviceWidth > 760) {
             let page3 = $(".page3");
             page3.css({"width": page3.width() * 0.8, "height": page3.height() * 0.8});
-            let cartoon = $(".page4 > .sign > #cartoon");
-            cartoon.css({"width": cartoon.width() * 0.8, "height": cartoon.height() * 0.8});
-            let description = $(".page4 > .sign > #description");
-            description.css({"width": description.width() * 0.8, "height": description.height() * 0.8});
-            let code = $(".page4 > .sign > #code");
-            code.css({"width": code.width() * 0.8, "height": code.height() * 0.8});
-            let saoyisao = $(".page4 > .sign > #saoyisao");
-            saoyisao.css({"width": saoyisao.width() * 0.8, "height": saoyisao.height() * 0.8})
+            let page4=$(".page4 >.sign #result");
+            page4.css({"width":page4.width()*0.9,"left":"12%"});
+            $(".page4 > .sign > #name #result").css("top","13.4vh");
+            $(".page4 > .sign > #tongxue #result").css("top","14vh")
         }
 
 
@@ -95,7 +91,7 @@ $(
                         let interval = 11 + $(".page4 > .sign > #name").width() * 100 / deviceWidth;
                         $(".page4 > .sign > #tongxue").css("left", interval + "vw");
                         setTimeout(function () {
-                            saveToPNG();
+                           saveToPNG();
                         }, 100)
                     }, 3000)
                 }, 900)
@@ -197,48 +193,6 @@ $(
             /*
             * 添加title
             * */
-            let message = [
-                {
-                    "title": "./images/nickname/cengke.png",
-                    "description": "./images/description/cengke.png",
-                },
-                {
-                    "title": "./images/nickname/guojiang.png",
-                    "description": "./images/description/guojiang.png",
-                },
-                {
-                    "title": "./images/nickname/jianshen.png",
-                    "description": "./images/description/jianshen.png",
-                },
-                {
-                    "title": "./images/nickname/jinli.png",
-                    "description": "./images/description/jinli.png",
-                },
-                {
-                    "title": "./images/nickname/keyan.png",
-                    "description": "./images/description/keyan.png",
-                },
-                {
-                    "title": "./images/nickname/lianai.png",
-                    "description": "./images/description/lianai.png",
-                },
-                {
-                    "title": "./images/nickname/sanjiao.png",
-                    "description": "./images/description/sanjiao.png",
-                },
-                {
-                    "title": "./images/nickname/wenxue.png",
-                    "description": "./images/description/wenxue.png",
-                },
-                {
-                    "title": "./images/nickname/yangguang.png",
-                    "description": "./images/description/yangguang.png",
-                },
-                {
-                    "title": "./images/nickname/yuedu.png",
-                    "description": "./images/description/yuedu.png",
-                }
-            ];
             let imagePathBoy = [
                 "./images/boy/cengke.png",
                 "./images/boy/guojiang.png",
@@ -266,15 +220,11 @@ $(
             if (sex === 1) {
                 let path = imagePathBoy[num];
                 console.log(path);
-                $(".page4 > .sign > #cartoon").attr("src",path);
+                $(".page4 > .sign > #bk").attr("src",path);
             } else {
                 let path = imagePathGirl[num];
-                $(".page4 > .sign > #cartoon").attr("src",path);
+                $(".page4 > .sign > #bk").attr("src",path);
             }
-            //设置description
-            $(".page4 > .sign > #description").attr("src",message[num]["description"]);
-            //设置nickname
-            $(".page4 > .sign > #nickname").attr("src",message[num]["title"]);
         }
 
         /*
@@ -311,8 +261,8 @@ $(
 
                 // 【重要】默认转化的格式为png,也可设置为其他格式
                 var img = Canvas2Image.convertToJPEG(canvas, canvas.width, canvas.height);
-                $('.page4').empty();
-                $('#result').css("display", "block").append(img);
+                $('.page4 > #sign').empty();
+                $('.page4 > #sign').css("display", "block").append(img);
 
                 $(img).css({
                     "width": canvas.width / 2 + "px",

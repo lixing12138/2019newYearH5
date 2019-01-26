@@ -615,14 +615,14 @@ body {
     display:block
 }
 .page4 >.sign >  #bk{
-    width: 85vw;
-    height: 84.9864vh;
+    width: 100%;
+    height: 100%;
     z-index: -1;
 }
 .page4 > .sign > #name{
-    font-size: 4vw;
+    font-size: 5.4vw;
     position: absolute;
-    top:15.56vh;
+    top:15.4vh;
     left: 10vw;
     color: white;
 }
@@ -630,62 +630,13 @@ body {
     width:15.28117vw;
     height: 6.2347vw;
     position: absolute;
-    top:15.56vh;
+    top:15.8vh;
     left: 26vw;
 }
-.page4 > .sign > #nickname{
-     width:38.0195vw;
-     height: 9.53545vw;
-     position: absolute;
-     top:28vh;
-     left: 24.5721vw;
- }
-
-.page4 > .sign > #description{
-    width:38.8753vw;
-    height: 38.0195vw;
+.page4 >  #changan{
+    width:49.9816vw;
+    height: 4.05256vw;
     position: absolute;
-    top: 40vh;
-    left: 41.4425vw;
-}
-.page4 > .sign > #code{
-     width:24.44987vw;
-     height: 24.44987vw;
-     position: absolute;
-     left: 54.15647vw;
-     top:65vh;
- }
-.page4 > .sign > #changan{
-     width:50.1222vw;
-     height: 4.15647vw;
-     position: absolute;
-     top:81.30978vh;
-     left: 16.6039vw;
- }
-.page4 > .sign > #saoyisao{
-    width:8.0684vw;
-    height: 22.7383vw;
-    position: absolute;
-    left:42.2982vw;
-    top:65.55978vh;
-}
-.page4 > .sign > #cartoon{
-    width:36.2652vw;
-    height: 81.5709vw;
-    position: absolute;
-    top:33.40489vh;
-    left: 2vw;
-    z-index: 3;
-}
-
-#result{
-    width: 85vw;
-    height: 84.9864vh;
-    position: absolute;
-    top: 7vh;
-    left: 8vw;
-    display:none;
-    z-index: 1;
-    overflow: hidden;
-    background-color: transparent;
+    top:87.56vh;
+    left: 26vw;
 }
