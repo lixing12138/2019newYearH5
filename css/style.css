@@ -382,7 +382,7 @@ body {
     width: 43.0782vw;
     height: 26.8948vw;
     position: absolute;
-    top: 14.7853vh;
+    top: 20%;
     left: 28.7506vw;
     z-index: 0;
 }
@@ -516,7 +516,7 @@ body {
     width: 60.6356vw;
     height: 106.3569vw;
     position: absolute;
-    top: 18.68206vh;
+    top: 24%;
     left: 19.8044vw;
 }
 .page3 > #shakeTip {
@@ -547,7 +547,7 @@ body {
     width: 25.0611vw;
     height: 34.59657vw;
     position: absolute;
-    top: 45vw;
+    top: 36%;
     left: 38.3863vw;
     z-index: 3;
 

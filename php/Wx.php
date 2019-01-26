@@ -21,7 +21,7 @@ class Wx
             $url='https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='.$this->appid.'&secret='.$this->secret;
             $result=$this->curl($url);
             $res=json_decode($result,true);
-            file_put_contents($filename,"<?php \n retutn ".var_export($res,true).";\n?>");
+            file_put_contents($filename,"<?php \n return ".var_export($res,true).";\n?>");
 
             $data=$res['access_token'];
         }

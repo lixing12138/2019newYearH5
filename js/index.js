@@ -96,7 +96,7 @@ $(
                         $(".page4 > .sign > #tongxue").css("left", interval + "vw");
                         setTimeout(function () {
                             saveToPNG();
-                        }, 1000)
+                        }, 100)
                     }, 3000)
                 }, 900)
             }, 1000)
