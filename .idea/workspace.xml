@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0579fa0b-26f9-4855-9284-9470d86ed540" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/getMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/getMessage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jweixin-1.4.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jweixin-1.4.0.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +16,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
+            <state relative-caret-position="1600">
               <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#span#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jweixin-1.4.0.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -52,12 +60,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1741">
-              <caret line="143" column="46" selection-start-line="143" selection-start-column="46" selection-end-line="143" selection-end-column="46" />
+            <state relative-caret-position="244">
+              <caret line="338" column="41" lean-forward="true" selection-start-line="338" selection-start-column="41" selection-end-line="338" selection-end-column="41" />
               <folding>
                 <element signature="e#29#65#0" />
                 <element signature="e#209#249#0" />
-                <element signature="e#273#307#0" />
                 <element signature="e#1376#1649#0" />
                 <element signature="e#1722#1994#0" />
                 <element signature="e#2095#2783#0" />
@@ -67,14 +74,13 @@
                 <element signature="e#4903#4937#0" />
                 <element signature="e#6682#6718#0" />
                 <element signature="e#6781#7240#0" />
+                <element signature="e#7327#11192#0" />
                 <element signature="e#7446#7487#0" />
                 <element signature="e#7514#9218#0" />
                 <element signature="e#9251#9700#0" />
                 <element signature="e#9734#10180#0" />
                 <element signature="e#11029#12885#0" />
                 <element signature="e#12936#12966#0" />
-                <element signature="e#13331#13747#0" />
-                <element signature="e#13739#14832#0" />
                 <element signature="e#14294#14816#0" />
                 <element signature="e#14871#14887#0" />
               </folding>
@@ -85,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/Wx.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+            <state relative-caret-position="338">
+              <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
               <folding>
                 <element signature="e#366#413#0#PHP" />
                 <element signature="n#getJSAPITicket#0;n#Wx#0;n#!!top" />
@@ -100,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/getMessage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="270">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -146,8 +152,9 @@
       <find>result</find>
       <find>sign</find>
       <find>bottl</find>
-      <find>tip</find>
       <find>tongxue</find>
+      <find>tip</find>
+      <find>doShare</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,15 +172,16 @@
         <option value="$PROJECT_DIR$/php/Wx.php" />
         <option value="$PROJECT_DIR$/php/cache/token_79770cc29e1a8357be1abe9461caf980.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/php/getMessage.php" />
+        <option value="$PROJECT_DIR$/js/jweixin-1.4.0.js" />
+        <option value="$PROJECT_DIR$/js/index.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="86" />
-    <option name="y" value="16" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-31" />
+    <option name="y" value="14" />
     <option name="width" value="1342" />
     <option name="height" value="728" />
   </component>
@@ -190,6 +198,11 @@
             <path>
               <item name="newYearH5" type="b2602c69:ProjectViewProjectNode" />
               <item name="newYearH5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newYearH5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newYearH5" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newYearH5" type="b2602c69:ProjectViewProjectNode" />
@@ -253,15 +266,15 @@
       <workItem from="1547804246984" duration="39088000" />
       <workItem from="1548143650133" duration="12579000" />
       <workItem from="1548300683318" duration="20087000" />
-      <workItem from="1548407703390" duration="33990000" />
+      <workItem from="1548407703390" duration="34850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146208000" />
+    <option name="totallyTimeSpent" value="147068000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="26" y="59" width="1342" height="728" extended-state="1" />
+    <frame x="-31" y="14" width="1342" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18174727" />
@@ -372,9 +385,16 @@
     <entry file="file://$PROJECT_DIR$/php/cache/ticket_79770cc29e1a8357be1abe9461caf980.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/getMessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
+        <state relative-caret-position="1600">
           <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
@@ -403,17 +423,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/getMessage.php">
+    <entry file="file://$PROJECT_DIR$/js/jweixin-1.4.0.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="27">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/Wx.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+        <state relative-caret-position="338">
+          <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
           <folding>
             <element signature="e#366#413#0#PHP" />
             <element signature="n#getJSAPITicket#0;n#Wx#0;n#!!top" />
@@ -425,12 +445,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1741">
-          <caret line="143" column="46" selection-start-line="143" selection-start-column="46" selection-end-line="143" selection-end-column="46" />
+        <state relative-caret-position="244">
+          <caret line="338" column="41" lean-forward="true" selection-start-line="338" selection-start-column="41" selection-end-line="338" selection-end-column="41" />
           <folding>
             <element signature="e#29#65#0" />
             <element signature="e#209#249#0" />
-            <element signature="e#273#307#0" />
             <element signature="e#1376#1649#0" />
             <element signature="e#1722#1994#0" />
             <element signature="e#2095#2783#0" />
@@ -440,14 +459,13 @@
             <element signature="e#4903#4937#0" />
             <element signature="e#6682#6718#0" />
             <element signature="e#6781#7240#0" />
+            <element signature="e#7327#11192#0" />
             <element signature="e#7446#7487#0" />
             <element signature="e#7514#9218#0" />
             <element signature="e#9251#9700#0" />
             <element signature="e#9734#10180#0" />
             <element signature="e#11029#12885#0" />
             <element signature="e#12936#12966#0" />
-            <element signature="e#13331#13747#0" />
-            <element signature="e#13739#14832#0" />
             <element signature="e#14294#14816#0" />
             <element signature="e#14871#14887#0" />
           </folding>

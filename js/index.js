@@ -333,7 +333,7 @@ $(
         function doShare() {
             $.get('https://xcx.fudan.edu.cn/newyear/php/getMessage.php',function (da) {
                 let data=JSON.parse(da);
-                window.wx.config({
+                wx.config({
                     beta: true,
                     debug: false,
                     appId: data['appid'],
@@ -345,7 +345,7 @@ $(
                         'onMenuShareAppMessage'
                     ]
                 });
-                window.wx.ready(function () {
+                wx.ready(function () {
                     wx.onMenuShareTimeline({
                         title:shareTitle, // 分享标题
                         link: shareLink, // 分享链接，该链接域名必须与当前企业的可信域名一致
