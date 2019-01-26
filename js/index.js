@@ -350,14 +350,6 @@ $(
                         title:shareTitle, // 分享标题
                         link: shareLink, // 分享链接，该链接域名必须与当前企业的可信域名一致
                         imgUrl: shareIcon, // 分享图标
-                        success: function () {
-                            // 用户确认分享后执行的回调函数
-                            alert("分享成功");
-                        },
-                        cancel: function () {
-                            // 用户取消分享后执行的回调函数
-                            alert("取消分享");
-                        }
                     });
 
                     wx.updateAppMessageShareData({
@@ -365,19 +357,8 @@ $(
                         desc: shareDescription, // 分享描述
                         link: shareLink, // 分享链接，该链接域名必须与当前企业的可信域名一致
                         imgUrl: shareIcon, // 分享图标
-                        success: function () {
-                            // 用户确认分享后执行的回调函数
-                            alert("分享成功");
-                        },
-                        cancel: function () {
-                            // 用户取消分享后执行的回调函数
-                            alert("取消分享");
-                        }
                     });
                 });
-                wx.error(function (res) {
-
-                })
             })
         }
     })
