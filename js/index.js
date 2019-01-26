@@ -331,7 +331,8 @@ $(
             shareDescription = 'h5描述',//分享描述
             shareIcon = 'https://xcx.fudan.edu.cn/newyear/sharePic.png';//分享ICON;
         function doShare() {
-            $.ajax('./php/getMessage.php',function (data) {
+            $.get('https://xcx.fudan.edu.cn/newyear/php/getMessage.php',function (da) {
+                let data=JSON.parse(da);
                 window.wx.config({
                     beta: true,
                     debug: false,
