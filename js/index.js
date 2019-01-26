@@ -327,7 +327,7 @@ $(
         * */
 
         let shareTitle = '2019newYearH5',//分享标题
-            shareLink= 'https://xcx.fudan.edu.cn/newyear',//分享链接
+            shareLink= 'https://xcx.fudan.edu.cn/newyear/',//分享链接
             shareDescription = 'h5描述',//分享描述
             shareIcon = 'https://xcx.fudan.edu.cn/newyear/sharePic.png';//分享ICON;
         function doShare() {
