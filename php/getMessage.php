@@ -7,10 +7,11 @@
  */
 include_once __DIR__.'/Wx.php';
 $obj=new Wx();
-$token=$obj->getAccessToken();
-echo json_encode($token)."<br>";
-$ticket=$obj->getJSAPITicket();
-echo json_encode($ticket)."<br>";
+//$token=$obj->getAccessToken();
+//echo json_encode($token)."<br>";
+//$ticket=$obj->getJSAPITicket();
+//echo json_encode($ticket)."<br>";
+
 $data=$obj->sign();
-echo json_encode($data)."<br>";
+echo json_encode($data);
 ?>
