@@ -341,18 +341,18 @@ $(
                     nonceStr: data['nonceStr'],
                     signature: data['signature'],
                     jsApiList: [
-                        'updateTimelineShareData',
-                        'updateAppMessageShareData'
+                        'onMenuShareTimeline',
+                        'onMenuShareAppMessage'
                     ]
                 });
                 wx.ready(function () {
-                    wx.updateTimelineShareData({
+                    wx.onMenuShareTimeline({
                         title:shareTitle, // 分享标题
                         link: shareLink, // 分享链接，该链接域名必须与当前企业的可信域名一致
                         imgUrl: shareIcon, // 分享图标
                     });
 
-                    wx.updateAppMessageShareData({
+                    wx.onMenuShareAppMessage({
                         title: shareTitle, // 分享标题
                         desc: shareDescription, // 分享描述
                         link: shareLink, // 分享链接，该链接域名必须与当前企业的可信域名一致
