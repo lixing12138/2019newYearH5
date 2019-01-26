@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0579fa0b-26f9-4855-9284-9470d86ed540" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/Wx.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/Wx.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="362" column="23" selection-start-line="362" selection-start-column="23" selection-end-line="362" selection-end-column="23" />
+            <state relative-caret-position="-917">
+              <caret line="328" column="8" selection-start-line="328" selection-start-column="8" selection-end-line="331" selection-end-column="81" />
               <folding>
                 <element signature="e#29#65#0" />
                 <element signature="e#209#249#0" />
@@ -86,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/Wx.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+            <state relative-caret-position="392">
+              <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
               <folding>
                 <element signature="e#366#413#0#PHP" />
                 <element signature="n#getJSAPITicket#0;n#Wx#0;n#!!top" />
@@ -167,19 +167,19 @@
         <option value="$PROJECT_DIR$/js/html2canvas.min.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/php/Wx.php" />
         <option value="$PROJECT_DIR$/php/cache/token_79770cc29e1a8357be1abe9461caf980.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/php/getMessage.php" />
         <option value="$PROJECT_DIR$/js/jweixin-1.4.0.js" />
         <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/php/Wx.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="567" />
-    <option name="y" value="66" />
+    <option name="x" value="177" />
+    <option name="y" value="58" />
     <option name="width" value="1342" />
     <option name="height" value="728" />
   </component>
@@ -264,15 +264,15 @@
       <workItem from="1547804246984" duration="39088000" />
       <workItem from="1548143650133" duration="12579000" />
       <workItem from="1548300683318" duration="20087000" />
-      <workItem from="1548407703390" duration="35536000" />
+      <workItem from="1548407703390" duration="36689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147754000" />
+    <option name="totallyTimeSpent" value="148907000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="596" y="130" width="1342" height="728" extended-state="0" />
+    <frame x="177" y="58" width="1342" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.18174727" />
@@ -383,13 +383,6 @@
     <entry file="file://$PROJECT_DIR$/php/cache/ticket_79770cc29e1a8357be1abe9461caf980.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/getMessage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1600">
@@ -408,15 +401,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/Wx.php">
+    <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+        <state relative-caret-position="-917">
+          <caret line="328" column="8" selection-start-line="328" selection-start-column="8" selection-end-line="331" selection-end-column="81" />
           <folding>
-            <element signature="e#366#413#0#PHP" />
-            <element signature="n#getJSAPITicket#0;n#Wx#0;n#!!top" />
-            <element signature="n#makeStr#0;n#Wx#0;n#!!top" />
-            <element signature="n#curl#0;n#Wx#0;n#!!top" />
+            <element signature="e#29#65#0" />
+            <element signature="e#209#249#0" />
+            <element signature="e#1376#1649#0" />
+            <element signature="e#1722#1994#0" />
+            <element signature="e#2095#2783#0" />
+            <element signature="e#2794#2840#0" />
+            <element signature="e#4357#4396#0" />
+            <element signature="e#4583#4891#0" />
+            <element signature="e#4903#4937#0" />
+            <element signature="e#6682#6718#0" />
+            <element signature="e#6781#7240#0" />
+            <element signature="e#7327#11192#0" />
+            <element signature="e#7446#7487#0" />
+            <element signature="e#7514#9218#0" />
+            <element signature="e#9251#9700#0" />
+            <element signature="e#9734#10180#0" />
+            <element signature="e#11029#12885#0" />
+            <element signature="e#12936#12966#0" />
+            <element signature="e#14871#14887#0" />
           </folding>
         </state>
       </provider>
@@ -441,30 +449,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/php/getMessage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="362" column="23" selection-start-line="362" selection-start-column="23" selection-end-line="362" selection-end-column="23" />
+        <state relative-caret-position="270">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Wx.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
           <folding>
-            <element signature="e#29#65#0" />
-            <element signature="e#209#249#0" />
-            <element signature="e#1376#1649#0" />
-            <element signature="e#1722#1994#0" />
-            <element signature="e#2095#2783#0" />
-            <element signature="e#2794#2840#0" />
-            <element signature="e#4357#4396#0" />
-            <element signature="e#4583#4891#0" />
-            <element signature="e#4903#4937#0" />
-            <element signature="e#6682#6718#0" />
-            <element signature="e#6781#7240#0" />
-            <element signature="e#7327#11192#0" />
-            <element signature="e#7446#7487#0" />
-            <element signature="e#7514#9218#0" />
-            <element signature="e#9251#9700#0" />
-            <element signature="e#9734#10180#0" />
-            <element signature="e#11029#12885#0" />
-            <element signature="e#12936#12966#0" />
-            <element signature="e#14871#14887#0" />
+            <element signature="e#366#413#0#PHP" />
+            <element signature="n#getJSAPITicket#0;n#Wx#0;n#!!top" />
+            <element signature="n#makeStr#0;n#Wx#0;n#!!top" />
+            <element signature="n#curl#0;n#Wx#0;n#!!top" />
           </folding>
         </state>
       </provider>
