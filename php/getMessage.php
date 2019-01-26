@@ -8,5 +8,5 @@
 include_once __DIR__.'/Wx.php';
 $obj=new Wx();
 $data=$obj->sign();
-echo $data;
+echo var_dump($data);
 ?>
