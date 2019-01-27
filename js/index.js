@@ -10,7 +10,7 @@ $(
         }
 
         if (isWeiXin) {
-            doShare();
+            //doShare();
             $("#clickTip").css("display","none");
             $("#shakeTip").css("display","block");
         }
@@ -83,7 +83,7 @@ $(
                     setTimeout(function () {
                         $(".page3 > #star").css("display", "none");
                         /*
-                        * 设置page4中的姓名 title cartoon  description
+                        * 设置page4中的姓名
                         * */
                         let num = Math.floor(Math.random() * 10);
                         paintPage(nickName, sex, num);

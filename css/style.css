@@ -399,14 +399,12 @@ body {
 @keyframes bomb {
     to {
         top: -1000px;
-        left: -1000px;
         transform: rotate(360deg);
     }
 }
 @-webkit-keyframes bomb {
     to {
         top: -1000px;
-        left: -1000px;
         transform: rotate(360deg);
     }
 }
