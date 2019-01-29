@@ -315,12 +315,12 @@ body {
 }
 .page2 > #message > #btn {
     background: url("../images/certain.png") no-repeat;
-    width: 18.3374vw;
+    width: 19.3374vw;
     height: 7.6234vw;
     background-size: 100%;
     position: absolute;
     top: 36.9vw;
-    left: 23vw;
+    left: 21.5vw;
 }
 
 .fade-out {
