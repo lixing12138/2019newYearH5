@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0579fa0b-26f9-4855-9284-9470d86ed540" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+            <state relative-caret-position="189">
+              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -72,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+            <state relative-caret-position="166">
+              <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
               <folding>
                 <element signature="e#29#65#0" />
                 <element signature="e#209#249#0" />
@@ -100,21 +100,6 @@
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/images/girl/guojiang.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/girl/jianshen.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/girl/jinli.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -183,8 +168,8 @@
       <find>cartoon</find>
       <find>page4</find>
       <find>cork</find>
-      <find>btn</find>
       <find>stopMusic</find>
+      <find>btn</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -202,9 +187,9 @@
         <option value="$PROJECT_DIR$/js/jweixin-1.4.0.js" />
         <option value="$PROJECT_DIR$/php/Wx.php" />
         <option value="$PROJECT_DIR$/php/getMessage.php" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -297,15 +282,15 @@
       <workItem from="1547804246984" duration="39088000" />
       <workItem from="1548143650133" duration="12579000" />
       <workItem from="1548300683318" duration="20087000" />
-      <workItem from="1548407703390" duration="57332000" />
+      <workItem from="1548407703390" duration="58212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169550000" />
+    <option name="totallyTimeSpent" value="170430000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="2" width="1342" height="728" extended-state="1" />
+    <frame x="-1" y="2" width="1342" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18720749" />
@@ -422,6 +407,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/girl/guojiang.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/girl/jianshen.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/girl/jinli.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/Wx.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-54">
@@ -432,6 +426,37 @@
             <element signature="n#getJSAPITicket#0;n#Wx#0;n#!!top" />
             <element signature="n#makeStr#0;n#Wx#0;n#!!top" />
             <element signature="n#curl#0;n#Wx#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+          <folding>
+            <element signature="e#29#65#0" />
+            <element signature="e#209#249#0" />
+            <element signature="e#594#831#0" />
+            <element signature="e#1252#1282#0" />
+            <element signature="e#1376#1649#0" />
+            <element signature="e#1722#1994#0" />
+            <element signature="e#2794#2840#0" />
+            <element signature="e#4357#4396#0" />
+            <element signature="e#4583#4891#0" />
+            <element signature="e#4903#4937#0" />
+            <element signature="e#4975#6671#0" />
+            <element signature="e#6682#6718#0" />
+            <element signature="e#6781#7240#0" />
+            <element signature="e#7327#11192#0" />
+            <element signature="e#7317#7333#0" />
+            <element signature="e#7446#7487#0" />
+            <element signature="e#9251#9700#0" />
+            <element signature="e#9734#10180#0" />
+            <element signature="e#11202#11229#0" />
+            <element signature="e#11029#12885#0" />
+            <element signature="e#12936#12966#0" />
+            <element signature="e#13235#15385#0" />
           </folding>
         </state>
       </provider>
@@ -480,54 +505,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+        <state relative-caret-position="189">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
-          <folding>
-            <element signature="e#29#65#0" />
-            <element signature="e#209#249#0" />
-            <element signature="e#594#831#0" />
-            <element signature="e#1252#1282#0" />
-            <element signature="e#1376#1649#0" />
-            <element signature="e#1722#1994#0" />
-            <element signature="e#2794#2840#0" />
-            <element signature="e#4357#4396#0" />
-            <element signature="e#4583#4891#0" />
-            <element signature="e#4903#4937#0" />
-            <element signature="e#4975#6671#0" />
-            <element signature="e#6682#6718#0" />
-            <element signature="e#6781#7240#0" />
-            <element signature="e#7327#11192#0" />
-            <element signature="e#7317#7333#0" />
-            <element signature="e#7446#7487#0" />
-            <element signature="e#9251#9700#0" />
-            <element signature="e#9734#10180#0" />
-            <element signature="e#11202#11229#0" />
-            <element signature="e#11029#12885#0" />
-            <element signature="e#12936#12966#0" />
-            <element signature="e#13235#15385#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/girl/jinli.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/girl/jianshen.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/girl/guojiang.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
