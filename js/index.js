@@ -4,15 +4,19 @@ $(
         * 判断是否为微信浏览器
         * */
         let isWeiXin = false;
+
+        let u = navigator.userAgent;
+        let isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+
         let ua = navigator.userAgent.toLowerCase();
         if (ua.match(/MicroMessenger/i) == "micromessenger") {
             isWeiXin = true;
         }
 
-        if (isWeiXin) {
+        if (isWeiXin && !isIOS) {
             //doShare();
-            $("#clickTip").css("display","none");
-            $("#shakeTip").css("display","block");
+            $("#clickTip").css("display", "none");
+            $("#shakeTip").css("display", "block");
         }
         /*
         * 设备宽度较大时缩小瓶子
@@ -22,10 +26,10 @@ $(
         if (deviceWidth > 760) {
             let page3 = $(".page3");
             page3.css({"width": page3.width() * 0.8, "height": page3.height() * 0.8});
-            let page4=$(".page4 >.sign #result");
-            page4.css({"width":page4.width()*0.9,"left":"12%"});
-            $(".page4 > .sign > #name #result").css("top","13.4vh");
-            $(".page4 > .sign > #tongxue #result").css("top","14vh")
+            let page4 = $(".page4 >.sign #result");
+            page4.css({"width": page4.width() * 0.9, "left": "12%"});
+            $(".page4 > .sign > #name #result").css("top", "13.4vh");
+            $(".page4 > .sign > #tongxue #result").css("top", "14vh")
         }
 
 
@@ -61,8 +65,9 @@ $(
                         /*
                         * 检测手机晃动
                         * */
-                        shakePhone();
-
+                        if (isWeiXin && !isIOS) {
+                            shakePhone();
+                        }
                     }, 500);
                 }, 500);
             }
@@ -91,7 +96,7 @@ $(
                         let interval = 11 + $(".page4 > .sign > #name").width() * 100 / deviceWidth;
                         $(".page4 > .sign > #tongxue").css("left", interval + "vw");
                         setTimeout(function () {
-                           saveToPNG();
+                            saveToPNG();
                         }, 100)
                     }, 3000)
                 }, 900)
@@ -119,7 +124,7 @@ $(
          * 监控手机晃动
          * */
         let shakePhone = function () {
-            let count=0;
+            let count = 0;
             if (window.DeviceMotionEvent && isWeiXin) {
                 window.addEventListener('devicemotion', deviceMotionHandle, false);
                 let shakeThreshold = 5000, lastUpdateTime = 0,
@@ -142,9 +147,9 @@ $(
                             }
 
                             setTimeout(function () {
-                                isWeiXin=false;
-                                $(".page3 > #shakeTip").css("display","none");
-                                if (count===0){
+                                isWeiXin = false;
+                                $(".page3 > #shakeTip").css("display", "none");
+                                if (count === 0) {
                                     $(".page3 > #clickTip").trigger('click');
                                     count++;
                                 }
@@ -191,6 +196,22 @@ $(
              * */
             $(".page4 > .sign > #name").text(name);
             /*
+            * 设置转发内容
+            * */
+            // let content=[
+            //     "蹭课",
+            //     "国奖",
+            //     "健身",
+            //     "锦鲤",
+            //     "科研",
+            //     "恋爱",
+            //     "三教",
+            //     "文学",
+            //     "阳光",
+            //     "阅读"
+            // ];
+            // $(document).attr("title","");
+            /*
             * 添加title
             * */
             let imagePathBoy = [
@@ -220,10 +241,10 @@ $(
             if (sex === 1) {
                 let path = imagePathBoy[num];
                 console.log(path);
-                $(".page4 > .sign > #bk").attr("src",path);
+                $(".page4 > .sign > #bk").attr("src", path);
             } else {
                 let path = imagePathGirl[num];
-                $(".page4 > .sign > #bk").attr("src",path);
+                $(".page4 > .sign > #bk").attr("src", path);
             }
         }
 
@@ -277,12 +298,12 @@ $(
         * */
 
         let shareTitle = '2019newYearH5',//分享标题
-            shareLink= 'https://xcx.fudan.edu.cn/newyear/',//分享链接
+            shareLink = 'https://xcx.fudan.edu.cn/newyear/',//分享链接
             shareDescription = 'h5描述',//分享描述
             shareIcon = 'https://xcx.fudan.edu.cn/newyear/sharePic.png';//分享ICON;
         function doShare() {
-            $.get('https://xcx.fudan.edu.cn/newyear/php/getMessage.php',function (da) {
-                let data=JSON.parse(da);
+            $.get('https://xcx.fudan.edu.cn/newyear/php/getMessage.php', function (da) {
+                let data = JSON.parse(da);
                 console.log(data);
                 wx.config({
                     debug: true,
@@ -297,7 +318,7 @@ $(
                 });
                 wx.ready(function () {
                     wx.onMenuShareTimeline({
-                        title:shareTitle, // 分享标题
+                        title: shareTitle, // 分享标题
                         link: shareLink, // 分享链接，该链接域名必须与当前企业的可信域名一致
                         imgUrl: shareIcon, // 分享图标
                     });

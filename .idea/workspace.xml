@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0579fa0b-26f9-4855-9284-9470d86ed540" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="133">
+              <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
               <folding>
                 <element signature="e#29#65#0" />
                 <element signature="e#209#249#0" />
@@ -69,9 +68,7 @@
                 <element signature="e#1252#1282#0" />
                 <element signature="e#1376#1649#0" />
                 <element signature="e#1722#1994#0" />
-                <element signature="e#2095#2783#0" />
                 <element signature="e#2794#2840#0" />
-                <element signature="e#2893#4345#0" />
                 <element signature="e#4357#4396#0" />
                 <element signature="e#4583#4891#0" />
                 <element signature="e#4903#4937#0" />
@@ -79,12 +76,14 @@
                 <element signature="e#6682#6718#0" />
                 <element signature="e#6781#7240#0" />
                 <element signature="e#7327#11192#0" />
+                <element signature="e#7317#7333#0" />
                 <element signature="e#7446#7487#0" />
                 <element signature="e#9251#9700#0" />
                 <element signature="e#9734#10180#0" />
                 <element signature="e#11202#11229#0" />
                 <element signature="e#11029#12885#0" />
                 <element signature="e#12936#12966#0" />
+                <element signature="e#13235#15385#0" />
               </folding>
             </state>
           </provider>
@@ -182,7 +181,7 @@
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="2" />
     <option name="width" value="1342" />
@@ -201,11 +200,6 @@
             <path>
               <item name="newYearH5" type="b2602c69:ProjectViewProjectNode" />
               <item name="newYearH5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newYearH5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newYearH5" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newYearH5" type="b2602c69:ProjectViewProjectNode" />
@@ -264,12 +258,12 @@
       <workItem from="1547804246984" duration="39088000" />
       <workItem from="1548143650133" duration="12579000" />
       <workItem from="1548300683318" duration="20087000" />
-      <workItem from="1548407703390" duration="53431000" />
+      <workItem from="1548407703390" duration="55333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165649000" />
+    <option name="totallyTimeSpent" value="167551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="2" width="1342" height="728" extended-state="1" />
@@ -445,8 +439,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="133">
+          <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
           <folding>
             <element signature="e#29#65#0" />
             <element signature="e#209#249#0" />
@@ -454,9 +448,7 @@
             <element signature="e#1252#1282#0" />
             <element signature="e#1376#1649#0" />
             <element signature="e#1722#1994#0" />
-            <element signature="e#2095#2783#0" />
             <element signature="e#2794#2840#0" />
-            <element signature="e#2893#4345#0" />
             <element signature="e#4357#4396#0" />
             <element signature="e#4583#4891#0" />
             <element signature="e#4903#4937#0" />
@@ -464,12 +456,14 @@
             <element signature="e#6682#6718#0" />
             <element signature="e#6781#7240#0" />
             <element signature="e#7327#11192#0" />
+            <element signature="e#7317#7333#0" />
             <element signature="e#7446#7487#0" />
             <element signature="e#9251#9700#0" />
             <element signature="e#9734#10180#0" />
             <element signature="e#11202#11229#0" />
             <element signature="e#11029#12885#0" />
             <element signature="e#12936#12966#0" />
+            <element signature="e#13235#15385#0" />
           </folding>
         </state>
       </provider>
