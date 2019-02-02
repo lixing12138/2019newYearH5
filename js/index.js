@@ -14,7 +14,7 @@ $(
         }
 
         if (isWeiXin && !isIOS) {
-            //doShare();
+            doShare();
             $("#clickTip").css("display", "none");
             $("#shakeTip").css("display", "block");
         }

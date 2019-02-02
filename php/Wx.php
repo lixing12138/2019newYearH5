@@ -8,8 +8,8 @@
 
 class Wx
 {
-    protected $appid = 'wxff5e0192690a209f';
-    protected $secret = 'fd5ffc15024856360d191b8ed04d2c8d';
+    protected $appid = 'wxfb8de38855b7871d';
+    protected $secret = 'fc7ded5820f0ad7c21216dad0cfbb34d';
 
     public function getAccessToken()
     {
