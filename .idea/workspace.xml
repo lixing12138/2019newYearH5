@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0579fa0b-26f9-4855-9284-9470d86ed540" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="0579fa0b-26f9-4855-9284-9470d86ed540" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="311" column="49" lean-forward="true" selection-start-line="311" selection-start-column="49" selection-end-line="311" selection-end-column="49" />
+            <state relative-caret-position="219">
+              <caret line="300" column="70" selection-start-line="300" selection-start-column="25" selection-end-line="300" selection-end-column="70" />
               <folding>
                 <element signature="e#29#65#0" />
                 <element signature="e#320#360#0" />
@@ -205,11 +202,6 @@
               <item name="newYearH5" type="b2602c69:ProjectViewProjectNode" />
               <item name="newYearH5" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="newYearH5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newYearH5" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -266,18 +258,18 @@
       <workItem from="1548407703390" duration="58873000" />
       <workItem from="1548818931611" duration="4103000" />
       <workItem from="1549115067336" duration="767000" />
-      <workItem from="1549118099752" duration="8488000" />
+      <workItem from="1549118099752" duration="9032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184449000" />
+    <option name="totallyTimeSpent" value="184993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="78" y="14" width="1342" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16380656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16380656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -435,10 +427,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sharePic.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="311" column="49" lean-forward="true" selection-start-line="311" selection-start-column="49" selection-end-line="311" selection-end-column="49" />
+        <state relative-caret-position="219">
+          <caret line="300" column="70" selection-start-line="300" selection-start-column="25" selection-end-line="300" selection-end-column="70" />
           <folding>
             <element signature="e#29#65#0" />
             <element signature="e#320#360#0" />
