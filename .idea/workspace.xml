@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0579fa0b-26f9-4855-9284-9470d86ed540" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="297" column="28" selection-start-line="297" selection-start-column="28" selection-end-line="297" selection-end-column="28" />
+            <state relative-caret-position="435">
+              <caret line="311" column="49" lean-forward="true" selection-start-line="311" selection-start-column="49" selection-end-line="311" selection-end-column="49" />
               <folding>
                 <element signature="e#29#65#0" />
                 <element signature="e#320#360#0" />
@@ -88,7 +89,6 @@
                 <element signature="e#9270#9297#0" />
                 <element signature="e#9327#11080#0" />
                 <element signature="e#11090#11120#0" />
-                <element signature="e#11391#12603#0" />
               </folding>
             </state>
           </provider>
@@ -186,9 +186,9 @@
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="136" />
-    <option name="y" value="34" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="78" />
+    <option name="y" value="14" />
     <option name="width" value="1342" />
     <option name="height" value="728" />
   </component>
@@ -266,15 +266,15 @@
       <workItem from="1548407703390" duration="58873000" />
       <workItem from="1548818931611" duration="4103000" />
       <workItem from="1549115067336" duration="767000" />
-      <workItem from="1549118099752" duration="7935000" />
+      <workItem from="1549118099752" duration="8488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183896000" />
+    <option name="totallyTimeSpent" value="184449000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="136" y="34" width="1342" height="728" extended-state="0" />
+    <frame x="78" y="14" width="1342" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.16380656" />
@@ -437,8 +437,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="297" column="28" selection-start-line="297" selection-start-column="28" selection-end-line="297" selection-end-column="28" />
+        <state relative-caret-position="435">
+          <caret line="311" column="49" lean-forward="true" selection-start-line="311" selection-start-column="49" selection-end-line="311" selection-end-column="49" />
           <folding>
             <element signature="e#29#65#0" />
             <element signature="e#320#360#0" />
@@ -465,7 +465,6 @@
             <element signature="e#9270#9297#0" />
             <element signature="e#9327#11080#0" />
             <element signature="e#11090#11120#0" />
-            <element signature="e#11391#12603#0" />
           </folding>
         </state>
       </provider>
