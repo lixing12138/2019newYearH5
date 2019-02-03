@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0579fa0b-26f9-4855-9284-9470d86ed540" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/bgm.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/bgm.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="562" column="8" lean-forward="true" selection-start-line="562" selection-start-column="8" selection-end-line="562" selection-end-column="8" />
+            <state relative-caret-position="-46">
+              <caret line="546" column="20" selection-start-line="546" selection-start-column="20" selection-end-line="546" selection-end-column="20" />
               <folding>
                 <element signature="e#2#51#0" />
                 <element signature="e#58#96#0" />
@@ -60,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="309" column="36" selection-start-line="309" selection-start-column="36" selection-end-line="309" selection-end-column="36" />
+            <state relative-caret-position="2889">
+              <caret line="249" column="10" lean-forward="true" selection-start-line="249" selection-start-column="10" selection-end-line="249" selection-end-column="10" />
               <folding>
                 <element signature="e#320#360#0" />
                 <element signature="e#394#564#0" />
@@ -94,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/php/getMessage.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -139,8 +139,8 @@
       <find>cork</find>
       <find>stopMusic</find>
       <find>btn</find>
-      <find>isIOS</find>
       <find>clickTip</find>
+      <find>isIOS</find>
       <find>page3</find>
     </findStrings>
   </component>
@@ -160,8 +160,8 @@
         <option value="$PROJECT_DIR$/php/Wx.php" />
         <option value="$PROJECT_DIR$/php/getMessage.php" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/index.js" />
       </list>
     </option>
   </component>
@@ -245,12 +245,12 @@
       <workItem from="1548407703390" duration="58873000" />
       <workItem from="1548818931611" duration="4103000" />
       <workItem from="1549115067336" duration="767000" />
-      <workItem from="1549118099752" duration="19357000" />
+      <workItem from="1549118099752" duration="20533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195318000" />
+    <option name="totallyTimeSpent" value="196494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="0" width="1364" height="735" extended-state="1" />
@@ -376,13 +376,6 @@
     <entry file="file://$PROJECT_DIR$/images/tip.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/getMessage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -393,10 +386,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/getMessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="562" column="8" lean-forward="true" selection-start-line="562" selection-start-column="8" selection-end-line="562" selection-end-column="8" />
+        <state relative-caret-position="-46">
+          <caret line="546" column="20" selection-start-line="546" selection-start-column="20" selection-end-line="546" selection-end-column="20" />
           <folding>
             <element signature="e#2#51#0" />
             <element signature="e#58#96#0" />
@@ -425,8 +425,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="309" column="36" selection-start-line="309" selection-start-column="36" selection-end-line="309" selection-end-column="36" />
+        <state relative-caret-position="2889">
+          <caret line="249" column="10" lean-forward="true" selection-start-line="249" selection-start-column="10" selection-end-line="249" selection-end-column="10" />
           <folding>
             <element signature="e#320#360#0" />
             <element signature="e#394#564#0" />

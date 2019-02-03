@@ -293,7 +293,7 @@ $(
         /*
         * 微信分享
         * */
-        let shareTitle = '“叮咚｜复旦大学向你派送一份新年上上签”',//分享标题
+        let shareTitle = '叮咚｜复旦大学向你派送一份新年上上签',//分享标题
             shareLink = 'https://xcx.fudan.edu.cn/newyear/',//分享链接
             shareDescription = '在猪年第一天悄然降临，睡眼惺松的你，准备好打开金光闪闪的许愿瓶了吗？',//分享描述
             shareIcon = 'https://xcx.fudan.edu.cn/newyear/share.png',//分享ICON;
