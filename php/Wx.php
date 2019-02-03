@@ -47,13 +47,11 @@ class Wx
         return $data;
     }
 
-    public function sign()
+    public function sign($url)
     {
         $nonceStr = $this->makeStr();
         $ticket = $this->getJSAPITicket();
         $time = time();
-        $url = 'https://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
-        //$url="https://xcx.fudan.edu.cn/newyear/";
         $arr = [
             'noncestr=' . $nonceStr,
             'jsapi_ticket=' . $ticket,
