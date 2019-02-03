@@ -530,14 +530,12 @@ body {
 }
 .page3 > #clickTip {
     display: block;
-    background: url("../images/tip.png") no-repeat;
-    background-size: 100% 100%;
     width: 100vw;
     height: 35.2078vw;
     position: fixed;
     top: 40%;
     left: 0;
-    z-index: 5;
+    z-index: 3;
 }
 .page3 > #star {
     background: url("../images/star.png") no-repeat;
