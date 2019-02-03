@@ -52,8 +52,8 @@ class Wx
         $nonceStr = $this->makeStr();
         $ticket = $this->getJSAPITicket();
         $time = time();
-        //$url = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
-        $url="https://xcx.fudan.edu.cn/newyear/";
+        $url = 'https://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+        //$url="https://xcx.fudan.edu.cn/newyear/";
         $arr = [
             'noncestr=' . $nonceStr,
             'jsapi_ticket=' . $ticket,
