@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0579fa0b-26f9-4855-9284-9470d86ed540" name="Default Changelist" comment="" />
+    <list default="true" id="0579fa0b-26f9-4855-9284-9470d86ed540" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +15,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
+            <state relative-caret-position="-135">
               <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
@@ -58,12 +60,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="334" column="9" lean-forward="true" selection-start-line="299" selection-start-column="7" selection-end-line="334" selection-end-column="9" />
+            <state relative-caret-position="325">
+              <caret line="297" column="28" selection-start-line="297" selection-start-column="28" selection-end-line="297" selection-end-column="28" />
               <folding>
                 <element signature="e#29#65#0" />
                 <element signature="e#320#360#0" />
-                <element signature="e#394#564#0" />
                 <element signature="e#573#610#0" />
                 <element signature="e#750#1147#0" />
                 <element signature="e#1158#1188#0" />
@@ -87,8 +88,7 @@
                 <element signature="e#9270#9297#0" />
                 <element signature="e#9327#11080#0" />
                 <element signature="e#11090#11120#0" />
-                <element signature="e#11586#11978#0" />
-                <element signature="e#12018#12576#0" />
+                <element signature="e#11391#12603#0" />
               </folding>
             </state>
           </provider>
@@ -97,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/Wx.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81">
-              <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+            <state>
+              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
               <folding>
                 <element signature="n#getAccessToken#0;n#Wx#0;n#!!top" />
                 <element signature="n#getJSAPITicket#0;n#Wx#0;n#!!top" />
@@ -113,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/getMessage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="297">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -180,15 +180,15 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/php/Wx.php" />
-        <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/php/getMessage.php" />
+        <option value="$PROJECT_DIR$/js/index.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="241" />
-    <option name="y" value="85" />
+    <option name="x" value="136" />
+    <option name="y" value="34" />
     <option name="width" value="1342" />
     <option name="height" value="728" />
   </component>
@@ -266,15 +266,15 @@
       <workItem from="1548407703390" duration="58873000" />
       <workItem from="1548818931611" duration="4103000" />
       <workItem from="1549115067336" duration="767000" />
-      <workItem from="1549118099752" duration="6726000" />
+      <workItem from="1549118099752" duration="7935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182687000" />
+    <option name="totallyTimeSpent" value="183896000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="136" y="34" width="1342" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.16380656" />
@@ -373,27 +373,6 @@
     <entry file="file://$PROJECT_DIR$/images/girl/jinli.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/getMessage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/Wx.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-          <folding>
-            <element signature="n#getAccessToken#0;n#Wx#0;n#!!top" />
-            <element signature="n#getJSAPITicket#0;n#Wx#0;n#!!top" />
-            <element signature="e#1279#1648#0#PHP" />
-            <element signature="n#makeStr#0;n#Wx#0;n#!!top" />
-            <element signature="n#curl#0;n#Wx#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -424,9 +403,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/getMessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Wx.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+          <folding>
+            <element signature="n#getAccessToken#0;n#Wx#0;n#!!top" />
+            <element signature="n#getJSAPITicket#0;n#Wx#0;n#!!top" />
+            <element signature="e#1279#1648#0#PHP" />
+            <element signature="n#makeStr#0;n#Wx#0;n#!!top" />
+            <element signature="n#curl#0;n#Wx#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="-135">
           <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
@@ -437,12 +437,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="334" column="9" lean-forward="true" selection-start-line="299" selection-start-column="7" selection-end-line="334" selection-end-column="9" />
+        <state relative-caret-position="325">
+          <caret line="297" column="28" selection-start-line="297" selection-start-column="28" selection-end-line="297" selection-end-column="28" />
           <folding>
             <element signature="e#29#65#0" />
             <element signature="e#320#360#0" />
-            <element signature="e#394#564#0" />
             <element signature="e#573#610#0" />
             <element signature="e#750#1147#0" />
             <element signature="e#1158#1188#0" />
@@ -466,8 +465,7 @@
             <element signature="e#9270#9297#0" />
             <element signature="e#9327#11080#0" />
             <element signature="e#11090#11120#0" />
-            <element signature="e#11586#11978#0" />
-            <element signature="e#12018#12576#0" />
+            <element signature="e#11391#12603#0" />
           </folding>
         </state>
       </provider>
