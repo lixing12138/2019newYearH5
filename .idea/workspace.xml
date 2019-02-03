@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0579fa0b-26f9-4855-9284-9470d86ed540" name="Default Changelist" comment="" />
+    <list default="true" id="0579fa0b-26f9-4855-9284-9470d86ed540" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +15,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
+            <state relative-caret-position="-863">
               <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
@@ -26,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
+            <state relative-caret-position="1648">
               <caret line="309" column="20" lean-forward="true" selection-start-line="309" selection-start-column="20" selection-end-line="309" selection-end-column="20" />
               <folding>
                 <element signature="e#2#51#0" />
@@ -58,11 +60,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="300" column="70" selection-start-line="300" selection-start-column="25" selection-end-line="300" selection-end-column="70" />
+            <state relative-caret-position="126">
+              <caret line="299" column="54" lean-forward="true" selection-start-line="299" selection-start-column="54" selection-end-line="299" selection-end-column="54" />
               <folding>
-                <element signature="e#29#65#0" />
                 <element signature="e#320#360#0" />
+                <element signature="e#394#564#0" />
                 <element signature="e#573#610#0" />
                 <element signature="e#750#1147#0" />
                 <element signature="e#1158#1188#0" />
@@ -70,7 +72,7 @@
                 <element signature="e#1628#1900#0" />
                 <element signature="e#2001#2768#0" />
                 <element signature="e#2779#2825#0" />
-                <element signature="e#2876#4126#0" />
+                <element signature="e#3023#4109#0" />
                 <element signature="e#4138#4177#0" />
                 <element signature="e#4364#4672#0" />
                 <element signature="e#4684#4718#0" />
@@ -92,26 +94,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/Wx.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-              <folding>
-                <element signature="n#getAccessToken#0;n#Wx#0;n#!!top" />
-                <element signature="n#getJSAPITicket#0;n#Wx#0;n#!!top" />
-                <element signature="e#1279#1648#0#PHP" />
-                <element signature="n#makeStr#0;n#Wx#0;n#!!top" />
-                <element signature="n#curl#0;n#Wx#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/getMessage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="243">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -129,7 +115,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fade-o</find>
       <find>page3 &gt; #w</find>
       <find>.page3 &gt; #w</find>
       <find>fade</find>
@@ -159,6 +144,7 @@
       <find>cork</find>
       <find>stopMusic</find>
       <find>btn</find>
+      <find>isIOS</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,8 +170,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="78" />
-    <option name="y" value="14" />
+    <option name="x" value="-18" />
+    <option name="y" value="37" />
     <option name="width" value="1342" />
     <option name="height" value="728" />
   </component>
@@ -201,6 +187,11 @@
             <path>
               <item name="newYearH5" type="b2602c69:ProjectViewProjectNode" />
               <item name="newYearH5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newYearH5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newYearH5" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,15 +249,15 @@
       <workItem from="1548407703390" duration="58873000" />
       <workItem from="1548818931611" duration="4103000" />
       <workItem from="1549115067336" duration="767000" />
-      <workItem from="1549118099752" duration="9032000" />
+      <workItem from="1549118099752" duration="12957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184993000" />
+    <option name="totallyTimeSpent" value="188918000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="78" y="14" width="1342" height="728" extended-state="0" />
+    <frame x="-117" y="302" width="1342" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16380656" />
@@ -365,9 +356,27 @@
     <entry file="file://$PROJECT_DIR$/images/girl/jinli.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/share.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Wx.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+          <folding>
+            <element signature="n#getAccessToken#0;n#Wx#0;n#!!top" />
+            <element signature="n#getJSAPITicket#0;n#Wx#0;n#!!top" />
+            <element signature="e#1279#1648#0#PHP" />
+            <element signature="n#sign#0;n#Wx#0;n#!!top" />
+            <element signature="n#makeStr#0;n#Wx#0;n#!!top" />
+            <element signature="n#curl#0;n#Wx#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
+        <state relative-caret-position="1648">
           <caret line="309" column="20" lean-forward="true" selection-start-line="309" selection-start-column="20" selection-end-line="309" selection-end-column="20" />
           <folding>
             <element signature="e#2#51#0" />
@@ -395,30 +404,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/getMessage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/Wx.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-          <folding>
-            <element signature="n#getAccessToken#0;n#Wx#0;n#!!top" />
-            <element signature="n#getJSAPITicket#0;n#Wx#0;n#!!top" />
-            <element signature="e#1279#1648#0#PHP" />
-            <element signature="n#makeStr#0;n#Wx#0;n#!!top" />
-            <element signature="n#curl#0;n#Wx#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
+        <state relative-caret-position="-863">
           <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
@@ -427,16 +415,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sharePic.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/php/getMessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="300" column="70" selection-start-line="300" selection-start-column="25" selection-end-line="300" selection-end-column="70" />
+        <state relative-caret-position="126">
+          <caret line="299" column="54" lean-forward="true" selection-start-line="299" selection-start-column="54" selection-end-line="299" selection-end-column="54" />
           <folding>
-            <element signature="e#29#65#0" />
             <element signature="e#320#360#0" />
+            <element signature="e#394#564#0" />
             <element signature="e#573#610#0" />
             <element signature="e#750#1147#0" />
             <element signature="e#1158#1188#0" />
@@ -444,7 +436,7 @@
             <element signature="e#1628#1900#0" />
             <element signature="e#2001#2768#0" />
             <element signature="e#2779#2825#0" />
-            <element signature="e#2876#4126#0" />
+            <element signature="e#3023#4109#0" />
             <element signature="e#4138#4177#0" />
             <element signature="e#4364#4672#0" />
             <element signature="e#4684#4718#0" />

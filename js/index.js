@@ -40,13 +40,11 @@ $(
             $(".page2 > #message > #select > #picBoy").removeClass('picBoy').addClass('selectedBoy');
             $(".page2 > #message > #select > #picGirl").removeClass('selectedGirl').addClass('picGirl');
             sex = 1;
-            //console.log("nan");
         });
         $(".page2 > #message > #select > #picGirl").click(function () {
             $(".page2 > #message > #select > #picGirl").removeClass('picGirl').addClass('selectedGirl');
             $(".page2 > #message > #select > #picBoy").removeClass('selectedBoy').addClass('picBoy');
             sex = 2;
-            //console.log("nv");
         });
         //获得名字
         let nickName = "";
@@ -301,7 +299,7 @@ $(
             shareIcon = 'https://xcx.fudan.edu.cn/newyear/share.png',//分享ICON;
             current_url = location.href.split('#')[0];
         function doShare() {
-            $.get('https://xcx.fudan.edu.cn/newyear/php/getMessage.php?url=' + current_url, function (da) {
+            $.get('https://xcx.fudan.edu.cn/newyear/php/getMessage.php?url=' + encodeURIComponent(current_url), function (da) {
                 let data = JSON.parse(da);
                 console.log(data);
                 wx.config({

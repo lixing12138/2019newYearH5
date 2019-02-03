@@ -7,7 +7,7 @@
  */
 include_once __DIR__.'/Wx.php';
 
-$url=$_GET["url"];
+$url=iconv('UTF-8','gbk',$_GET["url"]);
 $obj=new Wx();
 $data=$obj->sign($url);
 echo json_encode($data);
