@@ -71,8 +71,8 @@ $(
         })
 
         /*
-        * * 触发晃动事件或者点击开瓶按钮事件
-        * * */
+        *  触发晃动事件或者点击开瓶按钮事件
+        * */
         $(".page3 > #clickTip").click(function () {
             $(".page3 > #clickTip").css("display", "none");
             $(".page3 ").addClass('shakeBottle');
